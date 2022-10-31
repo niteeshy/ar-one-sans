@@ -1,7 +1,6 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
+  - AROneSans.glyphs
 axisOrder:
   - wght
-  - ital
-familyName: Rubik
+  - opsz
+familyName: AR One Sans
