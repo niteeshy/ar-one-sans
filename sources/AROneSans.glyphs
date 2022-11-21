@@ -1,16 +1,5 @@
 {
 .appVersion = "3133";
-DisplayStrings = (
-"'ALLE'",
-"h@n@H\012Terminal\012Ton",
-"UX+UI\012TEHSDIV/space TEHSDIV/space \012TEHFSDIV/space TEHCSDIV/space \012TEHATDIV/space TEHSDIV/space",
-"axis\012avis",
-"AÁ/Abreve A/_breveacute.case/Abreveacute/Abrevedotbelow/_brevegrave.case/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute ÃÆ/AEacute BC/Cacute/Ccaron Ç/Ccircumflex/Cdotaccent D/DZ/DZcaron Ð/Dcaron/Dcroat/Dzcaron EÉ/Ebreve/Ecaron Ê/Ecircumflexacute/Ecircumflexdotbelow/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde/Edblgrave Ë/Edotaccent/Edotbelow È/Ehookabove/Einvertedbreve/Emacron/Eogonek/Etilde/Schwa FG/Gbreve/Gcaron/Gcircumflex/Gcommaaccent/Gdotaccent H/Hbar/Hcircumflex I/IJ Í/Ibreve Î/Idblgrave Ï/Idotaccent/Idotbelow Ì/Ihookabove/Iinvertedbreve/Imacron/Iogonek/Itilde J/Jacute/Jcircumflex K/Kcommaaccent L/LJ/Lacute/Lcaron/Lcommaaccent/Ldot/Lj/Lslash MN/NJ/Nacute/Ncaron/Ncommaaccent/Nj Ñ/Eng OÓ/Obreve Ô/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/Odblgrave Ö/Odieresismacron/Odotaccentmacron/Odotbelow Ò/Ohookabove/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde/Ohungarumlaut/Oinvertedbreve/Omacron/Oogonek Ø/Oslashacute Õ/Otildemacron/OE PÞQR/Racute/Rcaron/Rcommaaccent/Rdblgrave/Rinvertedbreve S/Sacute/Scaron/Scedilla/Scircumflex/Scommaaccent/Germandbls T/Tbar/Tcaron/Tcedilla/Tcommaaccent UÚ/Ubreve Û/Udblgrave Ü/Udotbelow Ù/Uhookabove/Uhorn/Uhornacute/Uhorndotbelow/Uhorngrave/Uhornhookabove/Uhorntilde/Uhungarumlaut/Uinvertedbreve/Umacron/Uogonek/Uring/Utilde VW/Wacute/Wcircumflex/Wdieresis/Wgrave XYÝ/Ycircumflex/Ydieresis/Ydotbelow/Ygrave/Yhookabove/Ymacron/Ytilde Z/Zacute/Zcaron/Zdotaccent/D.ss02 aá/abreve/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde â/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde/adblgrave ä/adotbelow à/ahookabove/ainvertedbreve/amacron/aogonek å/aringacute ãæ/aeacute bc/cacute/ccaron ç/ccircumflex/cdotaccent dð/dcaron/dcroat/dzcaron eé/ebreve/ecaron ê/ecircumflexacute/ecircumflexdotbelow/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde/edblgrave ë/edotaccent/edotbelow è/ehookabove/einvertedbreve/emacron/eogonek/etilde/schwa fg/gbreve/gcaron/gcircumflex/gcommaaccent/gdotaccent h/hbar/hcircumflex i/idotless í/ibreve î/idblgrave ï/idotaccent/idotbelow ì/ihookabove/iinvertedbreve/ij/imacron/iogonek/itilde j/jdotless/jacute/jcircumflex k/kcommaaccent/kgreenlandic l/lacute/lcaron/lcommaaccent/ldot/lj/lslash mn/nacute/ncaron/ncommaaccent/nj ñ/eng oó/obreve ô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave ö/odieresismacron/odotaccentmacron/odotbelow ò/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde/ohungarumlaut/oinvertedbreve/omacron/oogonek ø/oslashacute õ/otildemacron/oe pþqr/racute/rcaron/rcommaaccent/rdblgrave/rinvertedbreve s/sacute/scaron/scedilla/scircumflex/scommaaccent ßt/tbar/tcaron/tcedilla/tcommaaccent uú/ubreve û/udblgrave ü/udotbelow ù/uhookabove/uhorn/uhornacute/uhorndotbelow/uhorngrave/uhornhookabove/uhorntilde/uhungarumlaut/uinvertedbreve/umacron/uogonek/uring/utilde vw/wacute/wcircumflex/wdieresis/wgrave xyý/ycircumflex/ydieresis/ydotbelow/ygrave/yhookabove/ymacron/ytilde z/zacute/zcaron/zdotaccent",
-"CSignal\012(zing)\012(axis)\012a,H\012a.H\012[H\012()",
-"parenthesis\012)}]\012({[\012\012(z\012g)\012s)\012(H\012",
-"period\012.,\012\012",
-"b.H\012a,H\012Slack-like/space \012a:H\012a;H\012a/ellipsis H\012on?\0121234567890e"
-);
 classes = (
 {
 automatic = 1;
@@ -39553,7 +39542,7 @@ unicode = 0111;
 },
 {
 glyphname = dzcaron;
-lastChange = "2022-11-17 06:53:50 +0000";
+lastChange = "2022-11-21 11:31:34 +0000";
 layers = (
 {
 components = (
@@ -39562,7 +39551,7 @@ name = d;
 },
 {
 name = zcaron;
-transform = "{1, 0, 0, 1, 588, 0}";
+transform = "{1, 0, 0, 1, 598, 0}";
 }
 );
 layerId = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
@@ -39582,7 +39571,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1058;
+width = 1068;
 },
 {
 components = (
@@ -39591,7 +39580,7 @@ name = d;
 },
 {
 name = zcaron;
-transform = "{1, 0, 0, 1, 588, 0}";
+transform = "{1, 0, 0, 1, 598, 0}";
 }
 );
 layerId = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
@@ -39611,7 +39600,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1058;
+width = 1068;
 },
 {
 components = (
