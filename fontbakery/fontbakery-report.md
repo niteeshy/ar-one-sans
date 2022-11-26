@@ -2,23 +2,23 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[6] AROneSans-RegularH.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+<details><summary><b>[6] AROneSans-RegularL.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | AR One Sans H | AR One Sans H |
+| Family Name | AR One Sans L | AR One Sans L |
 | Subfamily Name | Regular | Regular |
-| Full Name | AR One Sans Regular H | AR One Sans H Regular |
-| Poscript Name | AROneSans-RegularH | AROneSansH-Regular |
+| Full Name | AR One Sans Regular L | AR One Sans L Regular |
+| Poscript Name | AROneSans-RegularL | AROneSansL-Regular |
 | Typographic Family Name | AR One Sans | N/A |
-| Typographic Subfamily Name | Regular H | N/A | [code: bad-names]
+| Typographic Subfamily Name | Regular L | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
 
 
-* 🔥 **FAIL** On the 'name' table, the full font name 'AR One Sans Regular H' does not begin with the font family name 'AR One Sans H' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
+* 🔥 **FAIL** On the 'name' table, the full font name 'AR One Sans Regular L' does not begin with the font family name 'AR One Sans L' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -140,7 +140,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* paragraph (U+00B6): L<<499.0,729.0>--<500.0,73.0>> [code: found-semi-vertical]
+	* paragraph (U+00B6): L<<489.0,729.0>--<490.0,73.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[6] AROneSans-BoldL.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
@@ -479,23 +479,23 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EF1 (U+1EF1): L<<628.0,545.0>--<744.0,546.0>> 
 
 	* And uni20B5 (U+20B5): L<<556.0,165.0>--<555.0,40.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[6] AROneSans-RegularL.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] AROneSans-RegularH.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 🔥 **FAIL** Font names are incorrect:
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | AR One Sans L | AR One Sans L |
+| Family Name | AR One Sans H | AR One Sans H |
 | Subfamily Name | Regular | Regular |
-| Full Name | AR One Sans Regular L | AR One Sans L Regular |
-| Poscript Name | AROneSans-RegularL | AROneSansL-Regular |
+| Full Name | AR One Sans Regular H | AR One Sans H Regular |
+| Poscript Name | AROneSans-RegularH | AROneSansH-Regular |
 | Typographic Family Name | AR One Sans | N/A |
-| Typographic Subfamily Name | Regular L | N/A | [code: bad-names]
+| Typographic Subfamily Name | Regular H | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
 
 
-* 🔥 **FAIL** On the 'name' table, the full font name 'AR One Sans Regular L' does not begin with the font family name 'AR One Sans L' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
+* 🔥 **FAIL** On the 'name' table, the full font name 'AR One Sans Regular H' does not begin with the font family name 'AR One Sans H' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -617,7 +617,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* paragraph (U+00B6): L<<489.0,729.0>--<490.0,73.0>> [code: found-semi-vertical]
+	* paragraph (U+00B6): L<<499.0,729.0>--<500.0,73.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
