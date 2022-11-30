@@ -2,7 +2,9 @@
 .appVersion = "3133";
 DisplayStrings = (
 "Ð",
-"]"
+"]",
+X,
+"69"
 );
 classes = (
 {
@@ -29447,7 +29449,7 @@ unicode = 1E80;
 },
 {
 glyphname = X;
-lastChange = "2022-11-27 09:08:34 +0000";
+lastChange = "2022-11-27 17:03:48 +0000";
 layers = (
 {
 guideLines = (
@@ -29566,26 +29568,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"160 0 LINE",
+"161 0 LINE",
 "196 60 LINE",
 "301 244 LINE",
 "313 264 LINE",
 "315 264 LINE",
 "327 244 LINE",
 "437 60 LINE",
-"473 0 LINE",
+"472 0 LINE",
 "629 0 LINE",
 "414 339 LINE",
-"614 700 LINE",
-"462 700 LINE",
-"430 642 LINE",
+"607 700 LINE",
+"452 700 LINE",
+"423 642 LINE",
 "329 459 LINE",
 "317 439 LINE",
 "315 439 LINE",
 "303 459 LINE",
-"202 642 LINE",
-"170 700 LINE",
-"18 700 LINE",
+"210 642 LINE",
+"179 700 LINE",
+"26 700 LINE",
 "217 359 LINE",
 "4 0 LINE"
 );
@@ -29625,16 +29627,16 @@ nodes = (
 "465 0 LINE",
 "629 0 LINE",
 "414 339 LINE",
-"614 700 LINE",
-"454 700 LINE",
-"430 642 LINE",
+"606 700 LINE",
+"447 700 LINE",
+"423 642 LINE",
 "329 469 LINE",
 "320 439 LINE",
 "312 439 LINE",
 "303 469 LINE",
-"202 642 LINE",
-"178 700 LINE",
-"18 700 LINE",
+"209 642 LINE",
+"185 700 LINE",
+"26 700 LINE",
 "217 359 LINE",
 "4 0 LINE"
 );
@@ -39108,7 +39110,7 @@ unicode = 0111;
 },
 {
 glyphname = dzcaron;
-lastChange = "2022-11-26 13:21:37 +0000";
+lastChange = "2022-11-27 17:02:29 +0000";
 layers = (
 {
 components = (
@@ -39117,7 +39119,7 @@ name = d;
 },
 {
 name = zcaron;
-transform = "{1, 0, 0, 1, 596, 0}";
+transform = "{1, 0, 0, 1, 588, 0}";
 }
 );
 layerId = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
@@ -39137,7 +39139,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1066;
+width = 1058;
 },
 {
 components = (
@@ -39146,7 +39148,7 @@ name = d;
 },
 {
 name = zcaron;
-transform = "{1, 0, 0, 1, 596, 0}";
+transform = "{1, 0, 0, 1, 588, 0}";
 }
 );
 layerId = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
@@ -39166,7 +39168,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1066;
+width = 1058;
 },
 {
 components = (
@@ -67651,7 +67653,7 @@ R = superiors;
 },
 {
 glyphname = zero;
-lastChange = "2022-11-26 13:07:47 +0000";
+lastChange = "2022-11-27 17:00:35 +0000";
 layers = (
 {
 layerId = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
@@ -67870,7 +67872,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 590;
+width = 580;
 },
 {
 layerId = m004;
@@ -69101,7 +69103,7 @@ R = NoKerning;
 },
 {
 glyphname = six;
-lastChange = "2022-11-26 12:13:48 +0000";
+lastChange = "2022-11-27 21:05:40 +0000";
 layers = (
 {
 layerId = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
@@ -69175,7 +69177,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"413 700 LINE",
+"423 700 LINE",
 "316 700 LINE",
 "194 603 OFFCURVE",
 "52 446 OFFCURVE",
@@ -69195,8 +69197,8 @@ nodes = (
 "175 413 LINE",
 "173 413 LINE",
 "216 517 OFFCURVE",
-"326 635 OFFCURVE",
-"413 698 CURVE"
+"336 635 OFFCURVE",
+"423 698 CURVE"
 );
 },
 {
@@ -69241,7 +69243,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"461 700 LINE",
+"466 700 LINE",
 "287 700 LINE",
 "170 612 OFFCURVE",
 "44 445 OFFCURVE",
@@ -69261,8 +69263,8 @@ nodes = (
 "227 424 LINE",
 "225 424 LINE",
 "265 528 OFFCURVE",
-"370 631 OFFCURVE",
-"461 694 CURVE"
+"375 631 OFFCURVE",
+"466 694 CURVE"
 );
 },
 {
@@ -69944,7 +69946,7 @@ R = NoKerning;
 },
 {
 glyphname = nine;
-lastChange = "2022-11-26 12:13:43 +0000";
+lastChange = "2022-11-27 21:05:36 +0000";
 layers = (
 {
 layerId = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
@@ -70018,7 +70020,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"155 0 LINE",
+"145 0 LINE",
 "256 0 LINE",
 "378 97 OFFCURVE",
 "520 254 OFFCURVE",
@@ -70038,8 +70040,8 @@ nodes = (
 "394 283 LINE",
 "396 283 LINE",
 "344 157 OFFCURVE",
-"246 81 OFFCURVE",
-"155 4 CURVE"
+"236 81 OFFCURVE",
+"145 4 CURVE"
 );
 },
 {
@@ -70084,7 +70086,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"123 0 LINE",
+"118 0 LINE",
 "297 0 LINE",
 "414 88 OFFCURVE",
 "540 255 OFFCURVE",
@@ -70104,8 +70106,8 @@ nodes = (
 "357 276 LINE",
 "359 276 LINE",
 "319 172 OFFCURVE",
-"214 69 OFFCURVE",
-"123 6 CURVE"
+"209 69 OFFCURVE",
+"118 6 CURVE"
 );
 },
 {
@@ -107383,26 +107385,41 @@ weightClass = Bold;
 );
 kerning = {
 "993DDA7B-BC4C-4F4B-ACF9-716C764D536A" = {
-Z = {
-o = -8;
+A = {
+D = 7;
+N = 8;
+O = 20;
+T = -26;
+Y = -28;
 };
-s = {
-w = 0;
-parenright = 0;
+C = {
+I = 10;
+S = 16;
+T = 8;
+o = -4;
 };
-k = {
-n = 0;
-v = 0;
-quotedblright = 46;
+D = {
+A = -8;
+I = -12;
 };
-X = {
-plus = -60;
-};
-h = {
+E = {
+A = 22;
+H = 0;
+S = 0;
+T = 0;
 i = -4;
+x = 6;
 };
-quotedbl = {
-T = 18;
+F = {
+A = 0;
+H = 10;
+I = 0;
+O = 22;
+S = 12;
+o = 0;
+};
+G = {
+u = -4;
 };
 H = {
 A = 20;
@@ -107410,18 +107427,106 @@ E = 0;
 H = 0;
 O = 0;
 S = -10;
-X = 36;
-hyphen = -23;
 T = 0;
 V = 0;
+X = 36;
+hyphen = -23;
 };
-E = {
-A = 22;
+I = {
+I = 0;
+V = 0;
+};
+K = {
+U = 18;
+h = 22;
+o = -6;
+};
+L = {
+A = 0;
+H = -22;
+Y = -70;
+};
+M = {
+i = -8;
+};
+O = {
+C = 33;
+D = 0;
+O = 24;
+V = -10;
+};
+P = {
+A = -28;
+T = -10;
+a = -18;
+};
+R = {
+A = 0;
 H = 0;
+I = -8;
+M = -12;
+S = -14;
+};
+S = {
+D = -14;
 S = 0;
+W = 8;
+r = -12;
+};
+T = {
+H = 0;
+I = -6;
+O = -16;
+S = 10;
 T = 0;
-x = 6;
-i = -4;
+a = -36;
+e = -68;
+h = 0;
+i = -6;
+o = -68;
+w = -22;
+};
+U = {
+T = -6;
+};
+V = {
+H = 0;
+O = -10;
+o = -46;
+};
+X = {
+plus = -60;
+};
+Z = {
+o = -8;
+};
+a = {
+f = 0;
+h = 6;
+n = 0;
+r = 0;
+};
+b = {
+period = 0;
+};
+bracketleft = {
+H = 0;
+};
+c = {
+a = -4;
+o = -8;
+y = 0;
+};
+d = {
+i = 12;
+j = -12;
+};
+e = {
+t = 4;
+w = 0;
+};
+endash = {
+n = 0;
 };
 f = {
 b = 0;
@@ -107430,110 +107535,32 @@ o = -10;
 t = 12;
 z = 8;
 };
-y = {
-quoteright = 44;
-quotesingle = 5;
-};
-P = {
-A = -28;
-T = -10;
-a = -18;
-};
 g = {
 j = -8;
 u = 0;
 };
-A = {
-Y = -28;
-D = 7;
-N = 8;
-O = 20;
-T = -26;
-};
-G = {
-u = -4;
-};
-U = {
-T = -6;
-};
-bracketleft = {
-H = 0;
-};
-S = {
-D = -14;
-W = 8;
-r = -12;
-S = 0;
-};
-period = {
-H = 0;
-};
-F = {
-H = 10;
-I = 0;
-O = 22;
-S = 12;
-o = 0;
-A = 0;
-};
-R = {
-A = 0;
-I = -8;
-M = -12;
-S = -14;
-H = 0;
-};
-D = {
-A = -8;
-I = -12;
-};
-I = {
-I = 0;
-V = 0;
-};
-v = {
-i = 0;
-};
-endash = {
-n = 0;
-};
-K = {
-U = 18;
-h = 22;
-o = -6;
+h = {
+i = -4;
 };
 i = {
-t = 8;
-i = 0;
 f = 0;
+i = 0;
+t = 8;
 v = 0;
 };
-T = {
-H = 0;
-I = -6;
-O = -16;
-T = 0;
-a = -36;
-e = -68;
-h = 0;
-i = -6;
-w = -22;
-S = 10;
-o = -68;
+k = {
+n = 0;
+quotedblright = 46;
+v = 0;
 };
-d = {
-i = 12;
-j = -12;
+l = {
+l = 0;
+s = 0;
+v = -8;
 };
-L = {
-A = 0;
-Y = -70;
-H = -22;
-};
-x = {
-i = 0;
-t = 18;
-y = 12;
+n = {
+a = 0;
+n = 0;
 };
 o = {
 i = -10;
@@ -107542,118 +107569,76 @@ x = -6;
 };
 parenleft = {
 H = 0;
+a = 0;
 z = 0;
-a = 0;
 };
-c = {
-a = -4;
-o = -8;
-y = 0;
-};
-t = {
-i = 0;
-quoteright = 20;
-e = 0;
-o = 0;
-t = 0;
-};
-n = {
-n = 0;
-a = 0;
-};
-V = {
-o = -46;
+period = {
 H = 0;
-O = -10;
+};
+quotedbl = {
+T = 18;
 };
 r = {
+a = -17;
+i = 0;
 l = -8;
+n = 0;
 o = -16;
+quotedblright = 44;
 r = -6;
 t = -4;
 v = 0;
 x = 8;
-z = 10;
-quotedblright = 44;
-a = -17;
-n = 0;
-i = 0;
 y = 0;
+z = 10;
 };
-O = {
-V = -10;
-C = 33;
-D = 0;
-O = 24;
-};
-C = {
-I = 10;
-S = 16;
-T = 8;
-o = -4;
-};
-M = {
-i = -8;
-};
-l = {
-l = 0;
-s = 0;
-v = -8;
-};
-e = {
-t = 4;
+s = {
+parenright = 0;
 w = 0;
+};
+t = {
+e = 0;
+i = 0;
+o = 0;
+quoteright = 20;
+t = 0;
 };
 u = {
 t = 16;
 z = 12;
 };
+v = {
+i = 0;
+};
 w = {
 l = 0;
 };
-a = {
-h = 6;
-f = 0;
-r = 0;
-n = 0;
+x = {
+i = 0;
+t = 18;
+y = 12;
 };
-b = {
-period = 0;
+y = {
+quoteright = 44;
+quotesingle = 5;
 };
 };
 m004 = {
-Z = {
-a = 0;
-o = 0;
-v = 0;
+A = {
+C = 0;
+D = 8;
+T = -40;
+y = -12;
 };
-s = {
-t = 8;
-w = 0;
-parenright = 0;
+C = {
+S = 12;
+T = 14;
+o = -10;
+y = -12;
 };
-k = {
-n = 0;
-v = 0;
-hyphen = -12;
-};
-X = {
-plus = 0;
-};
-N = {
-Y = 0;
-};
-hyphen = {
-H = 0;
-Z = 0;
-t = 0;
-};
-quotedbl = {
-I = 0;
-};
-H = {
-H = 0;
-S = 0;
+D = {
+A = -8;
+I = -20;
 };
 E = {
 A = 10;
@@ -107661,46 +107646,8 @@ H = -6;
 S = 0;
 T = 16;
 Y = 0;
-i = -6;
 hyphen = 0;
-};
-f = {
-b = 0;
-i = 12;
-z = 14;
-};
-P = {
-A = -35;
-T = -14;
-a = -20;
-};
-g = {
-j = -10;
-parenright = 0;
-};
-Y = {
-A = -40;
-};
-A = {
-C = 0;
-D = 8;
-T = -40;
-y = -12;
-};
-quotesingle = {
-A = -64;
-};
-G = {
-u = -10;
-};
-S = {
-D = 0;
-H = 0;
-O = -10;
-r = -8;
-};
-period = {
-H = 0;
+i = -6;
 };
 F = {
 A = 0;
@@ -107710,24 +107657,16 @@ S = 10;
 T = 12;
 o = 0;
 };
-R = {
-A = 0;
+G = {
+u = -10;
+};
+H = {
 H = 0;
 S = 0;
-};
-D = {
-A = -8;
-I = -20;
 };
 I = {
 I = 0;
 V = 0;
-};
-v = {
-i = 0;
-};
-endash = {
-n = 0;
 };
 K = {
 H = -8;
@@ -107735,11 +107674,34 @@ U = -18;
 h = -6;
 o = -25;
 };
-i = {
-f = 0;
-i = -8;
-o = -14;
-v = 0;
+L = {
+A = 38;
+H = 0;
+Y = -65;
+};
+N = {
+Y = 0;
+};
+O = {
+C = 6;
+S = -4;
+V = -15;
+};
+P = {
+A = -35;
+T = -14;
+a = -20;
+};
+R = {
+A = 0;
+H = 0;
+S = 0;
+};
+S = {
+D = 0;
+H = 0;
+O = -10;
+r = -8;
 };
 T = {
 H = 0;
@@ -107749,78 +107711,73 @@ T = 32;
 a = -58;
 e = -72;
 h = 0;
+hyphen = -38;
 i = -10;
 o = -73;
 w = -34;
-hyphen = -38;
-};
-d = {
-i = 12;
-j = -8;
-};
-L = {
-A = 38;
-H = 0;
-Y = -65;
-};
-x = {
-i = 0;
-t = 9;
-y = 8;
-};
-o = {
-i = -6;
-n = 0;
-x = -4;
-guillemetright = 0;
-};
-parenleft = {
-H = 0;
-a = 0;
-z = 0;
-};
-c = {
-a = 0;
-o = 10;
-y = 8;
-hyphen = 0;
-};
-t = {
-e = 0;
-i = 0;
-o = -6;
-t = 0;
-x = 16;
-hyphen = 0;
-quoteright = 16;
-};
-n = {
-n = 0;
-guillemetright = 0;
 };
 V = {
 D = -10;
 H = 0;
 };
-r = {
-i = 30;
-k = -4;
-o = -8;
-t = 30;
-v = 18;
-x = 13;
-quotedblright = 52;
+X = {
+plus = 0;
 };
-O = {
-C = 6;
-S = -4;
-V = -15;
+Y = {
+A = -40;
 };
-C = {
-S = 12;
-T = 14;
-o = -10;
-y = -12;
+Z = {
+a = 0;
+o = 0;
+v = 0;
+};
+a = {
+guillemetright = 0;
+h = -5;
+x = 5;
+};
+c = {
+a = 0;
+hyphen = 0;
+o = 10;
+y = 8;
+};
+d = {
+i = 12;
+j = -8;
+};
+e = {
+j = -10;
+t = 8;
+w = 6;
+};
+endash = {
+n = 0;
+};
+f = {
+b = 0;
+i = 12;
+z = 14;
+};
+g = {
+j = -10;
+parenright = 0;
+};
+hyphen = {
+H = 0;
+Z = 0;
+t = 0;
+};
+i = {
+f = 0;
+i = -8;
+o = -14;
+v = 0;
+};
+k = {
+hyphen = -12;
+n = 0;
+v = 0;
 };
 l = {
 j = -22;
@@ -107830,21 +107787,66 @@ t = -10;
 v = -18;
 z = 10;
 };
-e = {
-j = -10;
+n = {
+guillemetright = 0;
+n = 0;
+};
+o = {
+guillemetright = 0;
+i = -6;
+n = 0;
+x = -4;
+};
+parenleft = {
+H = 0;
+a = 0;
+z = 0;
+};
+period = {
+H = 0;
+};
+quotedbl = {
+I = 0;
+};
+quotesingle = {
+A = -64;
+};
+r = {
+i = 30;
+k = -4;
+o = -8;
+quotedblright = 52;
+t = 30;
+v = 18;
+x = 13;
+};
+s = {
+parenright = 0;
 t = 8;
-w = 6;
+w = 0;
+};
+t = {
+e = 0;
+hyphen = 0;
+i = 0;
+o = -6;
+quoteright = 16;
+t = 0;
+x = 16;
 };
 u = {
 period = -20;
 };
+v = {
+i = 0;
+};
 w = {
 l = 8;
 };
-a = {
-h = -5;
-x = 5;
-guillemetright = 0;
+x = {
+i = 0;
+t = 9;
+y = 8;
 };
 };
 };
