@@ -1,6 +1,31 @@
 sources:
   - AROneSans.glyphs
+buildTTF: False
+buildOTF: False
+buildWebfont: False
 axisOrder:
-  - wght
   - opsz
+  - wght
 familyName: AR One Sans
+stat:
+  - name: Optical size
+    tag: opsz
+    values:
+    - name: 6pt # This point size value should be defined by design
+      value: 6
+    - name: 60pt
+      value: 60
+  - name: Weight
+    tag: wght
+    values:
+    - name: Regular
+      value: 400
+      linkedValue: 700
+      flags: 2
+    # The following hashed instances should be activated as soon as this instances are defined
+    # - name: Medium
+    #   value: 500
+    # - name: SemiBold
+    #   value: 600
+    - name: Bold
+      value: 700
