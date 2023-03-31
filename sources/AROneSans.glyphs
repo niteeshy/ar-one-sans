@@ -33,6 +33,10 @@ name = "Use Extension Kerning";
 value = 1;
 },
 {
+name = "Enforce Compatibility Check";
+value = 1;
+},
+{
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
@@ -231,7 +235,6 @@ fontMaster = (
 {
 ascender = 780;
 capHeight = 700;
-custom = "Regular L";
 customParameters = (
 {
 name = hheaAscender;
@@ -288,7 +291,6 @@ name = "LC overshoot";
 position = "{-53, 522}";
 },
 {
-lockAngle = 1;
 locked = 1;
 name = "LC Ascender/Diacritic Top";
 position = "{-53, 734}";
@@ -482,7 +484,7 @@ xHeight = 510;
 {
 ascender = 780;
 capHeight = 700;
-custom = "Regular H";
+custom = "Regular 60pt";
 customParameters = (
 {
 name = "Link Metrics With Master";
@@ -564,7 +566,6 @@ name = "Diacritic Median";
 position = "{-52, 648}";
 },
 {
-lockAngle = 1;
 locked = 1;
 name = "LC Ascender/Diacritic Top";
 position = "{-53, 724}";
@@ -583,7 +584,6 @@ xHeight = 500;
 {
 ascender = 780;
 capHeight = 700;
-custom = L;
 customParameters = (
 {
 name = hheaAscender;
@@ -641,7 +641,6 @@ name = "LC overshoot";
 position = "{-53, 522}";
 },
 {
-lockAngle = 1;
 locked = 1;
 name = "LC Ascender/Diacritic Top";
 position = "{-53, 734}";
@@ -825,7 +824,7 @@ xHeight = 510;
 {
 ascender = 780;
 capHeight = 700;
-custom = H;
+custom = "60pt";
 customParameters = (
 {
 name = "Link Metrics With Master";
@@ -882,7 +881,6 @@ name = "LC overshoot";
 position = "{-53, 512}";
 },
 {
-lockAngle = 1;
 locked = 1;
 name = "LC Ascender/Diacritic Top";
 position = "{-53, 724}";
@@ -107396,15 +107394,7 @@ interpolationWidth = 0;
 instanceInterpolations = {
 "993DDA7B-BC4C-4F4B-ACF9-716C764D536A" = 1;
 };
-name = "Regular L";
-},
-{
-interpolationWeight = 84;
-interpolationWidth = 60;
-instanceInterpolations = {
-"C7F1792A-1FE9-4A21-B628-190BF571D00B" = 1;
-};
-name = "Regular H";
+name = Regular;
 },
 {
 interpolationWeight = 134;
@@ -107413,19 +107403,28 @@ instanceInterpolations = {
 m004 = 1;
 };
 isBold = 1;
-linkStyle = "Regular L";
-name = "Bold L";
+name = Bold;
 weightClass = Bold;
 },
 {
+exports = 0;
+interpolationWeight = 84;
+interpolationWidth = 60;
+instanceInterpolations = {
+"C7F1792A-1FE9-4A21-B628-190BF571D00B" = 1;
+};
+name = "Regular 60pt";
+},
+{
+exports = 0;
 interpolationWeight = 134;
 interpolationWidth = 60;
 instanceInterpolations = {
 m003 = 1;
 };
 isBold = 1;
-linkStyle = "Regular H";
-name = "Bold H";
+linkStyle = "Regular 60 pt";
+name = "Bold 60pt";
 weightClass = Bold;
 }
 );
