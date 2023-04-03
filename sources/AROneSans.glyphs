@@ -4,7 +4,10 @@ DisplayStrings = (
 "É/Ecaron/Ecircumflexgrave/Ecircumflextilde",
 "f\012340-1",
 "/zero.ss01",
-"0123456789/zero.ss01"
+"0123456789/zero.ss01",
+cenod,
+"/ogonekcomb/aogonek/eogonek/iogonek/oogonek/uogonek/ogonek",
+"i/idotless í/ibreve î/idblgrave ï/idotaccent/idotbelow ì/ihookabove/iinvertedbreve/ij/imacron/iogonek/itilde j/jdotless/jacute/jcircumflex"
 );
 classes = (
 {
@@ -30,6 +33,10 @@ value = 1;
 },
 {
 name = "Use Extension Kerning";
+value = 1;
+},
+{
+name = "Enforce Compatibility Check";
 value = 1;
 },
 {
@@ -97,12 +104,12 @@ name = aalt;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb strokeshortcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+    sub [i j idotbelow iogonek]' @CombiningTopAccents by [idotless jdotless idotless_dotbelowcomb idotless_ogonekcomb];
+    sub [i j idotbelow iogonek]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless idotless_dotbelowcomb idotless_ogonekcomb];
 	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb horncomb commaaccentcomb cedillacomb ogonekcomb];
 	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case horncomb.case commaaccentcomb.case cedillacomb.case ogonekcomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
-	
+	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
 
 lookup ccmp_Other_2 {
@@ -214,6 +221,13 @@ name = case;
 },
 {
 automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub i d o t l e s s underscore o g o n e k c o m b comma by i_d_o_t_l_e_s_s_underscore_o_g_o_n_e_k_c_o_m_b_comma;
+";
+name = dlig;
+},
+{
+automatic = 1;
 code = "sub zero by zero.ss01;
 ";
 name = ss01;
@@ -231,7 +245,6 @@ fontMaster = (
 {
 ascender = 780;
 capHeight = 700;
-custom = "Regular L";
 customParameters = (
 {
 name = hheaAscender;
@@ -288,7 +301,6 @@ name = "LC overshoot";
 position = "{-53, 522}";
 },
 {
-lockAngle = 1;
 locked = 1;
 name = "LC Ascender/Diacritic Top";
 position = "{-53, 734}";
@@ -475,6 +487,10 @@ KernOnModels = (
 "r quotedblright"
 );
 };
+verticalStems = (
+0
+);
+visible = 1;
 weightValue = 84;
 widthValue = 0;
 xHeight = 510;
@@ -482,108 +498,6 @@ xHeight = 510;
 {
 ascender = 780;
 capHeight = 700;
-custom = "Regular H";
-customParameters = (
-{
-name = "Link Metrics With Master";
-value = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
-},
-{
-name = hheaAscender;
-value = 1060;
-},
-{
-name = hheaDescender;
-value = -240;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 1060;
-},
-{
-name = typoDescender;
-value = -240;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1060;
-},
-{
-name = winDescent;
-value = 240;
-}
-);
-descender = -220;
-guideLines = (
-{
-locked = 1;
-name = Overshoot;
-position = "{-56, -12}";
-},
-{
-locked = 1;
-name = "Flaring Start";
-position = "{-55, 80}";
-},
-{
-locked = 1;
-name = "LC overshoot";
-position = "{-53, 512}";
-},
-{
-locked = 1;
-name = "UC Diacritic Base";
-position = "{-52, 760}";
-},
-{
-locked = 1;
-name = "Mathematical sign median";
-position = "{-56, 352}";
-},
-{
-locked = 1;
-name = "Diacritic Bottom Center";
-position = "{-55, -116}";
-},
-{
-locked = 1;
-name = "Diacritic Base";
-position = "{-53, 572}";
-},
-{
-locked = 1;
-name = "Diacritic Median";
-position = "{-52, 648}";
-},
-{
-lockAngle = 1;
-locked = 1;
-name = "LC Ascender/Diacritic Top";
-position = "{-53, 724}";
-},
-{
-locked = 1;
-name = "UC Dia Top";
-position = "{-52, 1018}";
-}
-);
-id = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
-weightValue = 84;
-widthValue = 60;
-xHeight = 500;
-},
-{
-ascender = 780;
-capHeight = 700;
-custom = L;
 customParameters = (
 {
 name = hheaAscender;
@@ -641,7 +555,6 @@ name = "LC overshoot";
 position = "{-53, 522}";
 },
 {
-lockAngle = 1;
 locked = 1;
 name = "LC Ascender/Diacritic Top";
 position = "{-53, 734}";
@@ -816,7 +729,9 @@ KernOnModels = (
 "r quotedblright"
 );
 };
-visible = 1;
+verticalStems = (
+0
+);
 weight = Bold;
 weightValue = 134;
 widthValue = 0;
@@ -825,7 +740,110 @@ xHeight = 510;
 {
 ascender = 780;
 capHeight = 700;
-custom = H;
+custom = "Regular 60pt";
+customParameters = (
+{
+name = "Link Metrics With Master";
+value = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
+},
+{
+name = hheaAscender;
+value = 1060;
+},
+{
+name = hheaDescender;
+value = -240;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1060;
+},
+{
+name = typoDescender;
+value = -240;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1060;
+},
+{
+name = winDescent;
+value = 240;
+}
+);
+descender = -220;
+guideLines = (
+{
+locked = 1;
+name = Overshoot;
+position = "{-56, -12}";
+},
+{
+locked = 1;
+name = "Flaring Start";
+position = "{-55, 80}";
+},
+{
+locked = 1;
+name = "LC overshoot";
+position = "{-53, 512}";
+},
+{
+locked = 1;
+name = "UC Diacritic Base";
+position = "{-52, 760}";
+},
+{
+locked = 1;
+name = "Mathematical sign median";
+position = "{-56, 352}";
+},
+{
+locked = 1;
+name = "Diacritic Bottom Center";
+position = "{-55, -116}";
+},
+{
+locked = 1;
+name = "Diacritic Base";
+position = "{-53, 572}";
+},
+{
+locked = 1;
+name = "Diacritic Median";
+position = "{-52, 648}";
+},
+{
+locked = 1;
+name = "LC Ascender/Diacritic Top";
+position = "{-53, 724}";
+},
+{
+locked = 1;
+name = "UC Dia Top";
+position = "{-52, 1018}";
+}
+);
+id = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
+verticalStems = (
+0
+);
+weightValue = 84;
+widthValue = 60;
+xHeight = 500;
+},
+{
+ascender = 780;
+capHeight = 700;
+custom = "60pt";
 customParameters = (
 {
 name = "Link Metrics With Master";
@@ -882,7 +900,6 @@ name = "LC overshoot";
 position = "{-53, 512}";
 },
 {
-lockAngle = 1;
 locked = 1;
 name = "LC Ascender/Diacritic Top";
 position = "{-53, 724}";
@@ -913,7 +930,9 @@ userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 15;
 };
-visible = 1;
+verticalStems = (
+0
+);
 weight = Bold;
 weightValue = 134;
 widthValue = 60;
@@ -46143,6 +46162,120 @@ rightMetricsKey = "=n+20";
 unicode = 0131;
 },
 {
+glyphname = idotless_dotbelowcomb;
+layers = (
+{
+components = (
+{
+name = idotless;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 111, 0}";
+}
+);
+layerId = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
+width = 334;
+},
+{
+components = (
+{
+name = idotless;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 116, 0}";
+}
+);
+layerId = m004;
+width = 383;
+},
+{
+components = (
+{
+name = idotless;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 121, 0}";
+}
+);
+layerId = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
+width = 334;
+},
+{
+components = (
+{
+name = idotless;
+},
+{
+name = dotbelowcomb;
+transform = "{1, 0, 0, 1, 126, 0}";
+}
+);
+layerId = m003;
+width = 383;
+}
+);
+},
+{
+glyphname = idotless_ogonekcomb;
+layers = (
+{
+components = (
+{
+name = idotless;
+},
+{
+name = ogonekcomb;
+transform = "{1, 0, 0, 1, 50, 8}";
+}
+);
+layerId = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
+width = 334;
+},
+{
+components = (
+{
+name = idotless;
+},
+{
+name = ogonekcomb;
+transform = "{1, 0, 0, 1, 78, 9}";
+}
+);
+layerId = m004;
+width = 383;
+},
+{
+components = (
+{
+name = idotless;
+},
+{
+name = ogonekcomb;
+transform = "{1, 0, 0, 1, 50, 8}";
+}
+);
+layerId = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
+width = 334;
+},
+{
+components = (
+{
+name = idotless;
+},
+{
+name = ogonekcomb;
+transform = "{1, 0, 0, 1, 78, 9}";
+}
+);
+layerId = m003;
+width = 383;
+}
+);
+},
+{
 glyphname = iacute;
 lastChange = "2022-11-06 07:27:44 +0000";
 layers = (
@@ -67258,6 +67391,345 @@ width = 512;
 }
 );
 unicode = 017C;
+},
+{
+glyphname = i_d_o_t_l_e_s_s_underscore_o_g_o_n_e_k_c_o_m_b_comma;
+layers = (
+{
+components = (
+{
+name = i;
+},
+{
+name = d;
+transform = "{1, 0, 0, 1, 334, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 922, 0}";
+},
+{
+name = t;
+transform = "{1, 0, 0, 1, 1508, 0}";
+},
+{
+name = l;
+transform = "{1, 0, 0, 1, 1909, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 2213, 0}";
+},
+{
+name = s;
+transform = "{1, 0, 0, 1, 2751, 0}";
+},
+{
+name = s;
+transform = "{1, 0, 0, 1, 3235, 0}";
+},
+{
+name = underscore;
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 3719, 0}";
+},
+{
+name = g;
+transform = "{1, 0, 0, 1, 4305, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 4888, 0}";
+},
+{
+name = n;
+transform = "{1, 0, 0, 1, 5474, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 6068, 0}";
+},
+{
+name = k;
+transform = "{1, 0, 0, 1, 6606, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 7161, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 7655, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 8241, 0}";
+},
+{
+name = b;
+transform = "{1, 0, 0, 1, 9127, 0}";
+},
+{
+name = comma;
+}
+);
+layerId = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
+width = 9725;
+},
+{
+components = (
+{
+name = i;
+},
+{
+name = d;
+transform = "{1, 0, 0, 1, 383, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 1006, 0}";
+},
+{
+name = t;
+transform = "{1, 0, 0, 1, 1610, 0}";
+},
+{
+name = l;
+transform = "{1, 0, 0, 1, 2057, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 2415, 0}";
+},
+{
+name = s;
+transform = "{1, 0, 0, 1, 2981, 0}";
+},
+{
+name = s;
+transform = "{1, 0, 0, 1, 3475, 0}";
+},
+{
+name = underscore;
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 3969, 0}";
+},
+{
+name = g;
+transform = "{1, 0, 0, 1, 4573, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 5195, 0}";
+},
+{
+name = n;
+transform = "{1, 0, 0, 1, 5799, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 6438, 0}";
+},
+{
+name = k;
+transform = "{1, 0, 0, 1, 7004, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 7608, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 8108, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 8712, 0}";
+},
+{
+name = b;
+transform = "{1, 0, 0, 1, 9637, 0}";
+},
+{
+name = comma;
+}
+);
+layerId = m004;
+width = 10263;
+},
+{
+components = (
+{
+name = i;
+},
+{
+name = d;
+transform = "{1, 0, 0, 1, 334, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 922, 0}";
+},
+{
+name = t;
+transform = "{1, 0, 0, 1, 1508, 0}";
+},
+{
+name = l;
+transform = "{1, 0, 0, 1, 1909, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 2213, 0}";
+},
+{
+name = s;
+transform = "{1, 0, 0, 1, 2751, 0}";
+},
+{
+name = s;
+transform = "{1, 0, 0, 1, 3235, 0}";
+},
+{
+name = underscore;
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 3719, 0}";
+},
+{
+name = g;
+transform = "{1, 0, 0, 1, 4305, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 4888, 0}";
+},
+{
+name = n;
+transform = "{1, 0, 0, 1, 5474, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 6068, 0}";
+},
+{
+name = k;
+transform = "{1, 0, 0, 1, 6606, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 7161, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 7655, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 8241, 0}";
+},
+{
+name = b;
+transform = "{1, 0, 0, 1, 9127, 0}";
+},
+{
+name = comma;
+}
+);
+layerId = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
+width = 9725;
+},
+{
+components = (
+{
+name = i;
+},
+{
+name = d;
+transform = "{1, 0, 0, 1, 383, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 1006, 0}";
+},
+{
+name = t;
+transform = "{1, 0, 0, 1, 1610, 0}";
+},
+{
+name = l;
+transform = "{1, 0, 0, 1, 2057, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 2415, 0}";
+},
+{
+name = s;
+transform = "{1, 0, 0, 1, 2981, 0}";
+},
+{
+name = s;
+transform = "{1, 0, 0, 1, 3475, 0}";
+},
+{
+name = underscore;
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 3969, 0}";
+},
+{
+name = g;
+transform = "{1, 0, 0, 1, 4573, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 5195, 0}";
+},
+{
+name = n;
+transform = "{1, 0, 0, 1, 5799, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 6438, 0}";
+},
+{
+name = k;
+transform = "{1, 0, 0, 1, 7004, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 7608, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 8108, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 8712, 0}";
+},
+{
+name = b;
+transform = "{1, 0, 0, 1, 9637, 0}";
+},
+{
+name = comma;
+}
+);
+layerId = m003;
+width = 10263;
+}
+);
+leftMetricsKey = i;
+rightMetricsKey = b;
 },
 {
 glyphname = ordfeminine;
@@ -107396,15 +107868,7 @@ interpolationWidth = 0;
 instanceInterpolations = {
 "993DDA7B-BC4C-4F4B-ACF9-716C764D536A" = 1;
 };
-name = "Regular L";
-},
-{
-interpolationWeight = 84;
-interpolationWidth = 60;
-instanceInterpolations = {
-"C7F1792A-1FE9-4A21-B628-190BF571D00B" = 1;
-};
-name = "Regular H";
+name = Regular;
 },
 {
 interpolationWeight = 134;
@@ -107413,19 +107877,28 @@ instanceInterpolations = {
 m004 = 1;
 };
 isBold = 1;
-linkStyle = "Regular L";
-name = "Bold L";
+name = Bold;
 weightClass = Bold;
 },
 {
+exports = 0;
+interpolationWeight = 84;
+interpolationWidth = 60;
+instanceInterpolations = {
+"C7F1792A-1FE9-4A21-B628-190BF571D00B" = 1;
+};
+name = "Regular 60pt";
+},
+{
+exports = 0;
 interpolationWeight = 134;
 interpolationWidth = 60;
 instanceInterpolations = {
 m003 = 1;
 };
 isBold = 1;
-linkStyle = "Regular H";
-name = "Bold H";
+linkStyle = "Regular 60 pt";
+name = "Bold 60pt";
 weightClass = Bold;
 }
 );
