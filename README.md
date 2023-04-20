@@ -1,8 +1,11 @@
-# AR One Sans Font Family
+# AR One Sans Font Family 
 _A Typeface for Augmented Reality and User Interfaces_
 
+![Cover](https://user-images.githubusercontent.com/26871553/233324206-29a21953-d178-452d-8def-166d089c82d1.png)
+
+
 ### Overview
-The AR One Sans font family is designed for use in augmented reality environments and user interfaces. Its low contrast, generous spacing, and robust shapes make it highly legible and easy to read in busy backgrounds. The font also has specific optical weights duplexed (uni-width) for high and low-resolution displays to avoid text reflow and enhance the user experience across devices. The functionality of the font has been extensively tested to ensure a smooth and comfortable reading experience, even in longer texts.
+The AR One Sans font family is designed for use in augmented reality environments and user interfaces. Its low contrast, generous spacing, and shapes designed based on research make it highly legible and easy to read in busy backgrounds. The font has specific optical weights duplexed (uni-width) for high and low-resolution displays to avoid text reflow and enhance the user experience across devices to support fast paced growth of displays in the headsets. The functionality of the font has been extensively tested to ensure a smooth and comfortable reading experience, even in longer texts.
 
 ### Context
 
@@ -21,6 +24,10 @@ The rapid evolution of technology has prompted the type industry to consistently
 ### Generational Scalability
 The scalability of the AR One font family across different resolutions makes it an ideal choice not just for current-generation headsets, but also for future headsets. The font is also developed with a complex script in mind and has the ability to accommodate a wider design vocabulary (coming soon).
 
+
+![Text variants](https://user-images.githubusercontent.com/26871553/233324243-435adbb1-a3d2-4bf3-ab71-01afe50abf33.png)
+
+
 ## Variable Axes
 
 | Axis | Tag | Range | Default | Description |
@@ -28,9 +35,11 @@ The scalability of the AR One font family across different resolutions makes it 
 | Augmented Reality Retinal Resolution | ARRR | 10 to 60 | 10 | Optimises the letter shapes and design to aid legibility based on the retinal resolution (PPD, pixel per degree) of devices. |
 | Weight | wght | 400 to 700 | 400 | Regular to Bold |
 
-### Augmented Reality Retinal Resolution Axis
+**Augmented Reality Retinal Resolution Axis [ARRR]**
 
-**Description:** Resolution-specific enhancements in AR/VR typefaces optimize text without changing the width of the letters, maintaining consistent spacing and kerning, and preserving layout and line breaks. This ensures a consistent design and layout across different resolutions, making designs accessible and easy to read, regardless of the headset's resolution.
+Resolution-specific enhancements optimize text without changing the width of the letters, maintaining consistent spacing and kerning, and preserving layout and line breaks. This ensures a consistent design and layout across different resolutions, making designs accessible and easy to read, regardless of the headset's resolution.
+
+Retinal Resolution (pixel density) = the number of pixels in a horizontal display line divided by the horizontal field of view provided by the lens. 
 
 Some of the adjustments in `ARRR` include: 
 
@@ -38,18 +47,9 @@ Some of the adjustments in `ARRR` include:
 2. Light traps to reduce excess glow at the intersection of strokes.
 3. Large x-height for a lower resolution to increase the counters and apertures and balance the negative space inside the letters due to flaring.
 
-**Scale interpretation:** In the proposed resolution-specific adjustments for AR/VR typefaces, the lower value of the axis corresponds to the PPD of low-resolution headsets, while the upper value corresponds to 60 PPD, which is considered retina resolution. Beyond this point, the effect of adjustments on legibility and readability becomes negligible. Therefore, by limiting the adjustments to this range, designers can optimize the legibility and readability of their typefaces for a wide range of headsets while minimizing the amount of adjustment work required.
+**Scale interpretation:** The lower value of the axis corresponds to the PPD of low-resolution headsets, while the upper value corresponds to 60 PPD, which is considered retina resolution. Beyond this point, the effect of adjustments on legibility and readability becomes negligible. Therefore, by limiting the adjustments to this range, designers can optimise the legibility and readability of their text for a wide range of headsets while minimising the amount of adjustment work required.
 
-**Recommended Use:** Is to map the `ARRR` to the resolution of headsets and render the typefaces according to that.
-
-
-
-### Charcter Set
-
-
-### OpenType Features
-
-
+**Recommended Use:** map the `ARRR` to the retinal resolution of headsets and render the typefaces according to that.
 
 ## License
 
