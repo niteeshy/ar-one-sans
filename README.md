@@ -5,8 +5,7 @@ _A Typeface for Augmented Reality and User Interfaces_
 
 
 ### Overview
-The AR One Sans font family is designed for use in augmented reality environments and user interfaces. Its low contrast, generous spacing, and customised shapes designed based on research make it highly legible and easy to read in busy backgrounds. The font has specific optical weights duplexed (uni-width) for high and low-resolution displays to avoid text reflow and enhance the user experience across devices to support fast paced growth of displays in the headsets. The functionality of the font has been extensively tested to ensure a smooth and comfortable reading experience, even in longer texts.
-
+The AR One Sans type family is for use in augmented reality environments and user interfaces. It’s low contrast, generous spacing and robust shapes make it work well in busy backgrounds with high readability. The design of letterforms is based on research and thorough testing on various devices ranging from high-end headsets to low-resolution smartphone-based devices. It has optical weights for high and low-resolution duplexed to avoid text reflow, making it easy to deliver a seamless user experience across platforms/devices. The functionality of the text has been tested thoroughly to make the reading experience better even in longer texts.
 ### Context
 
 The rapid evolution of technology has prompted the type industry to consistently produce typefaces that are optimized for various environments and devices. AR One Sans is a font family that is specifically designed to support augmented and virtual reality environments, helping a wide range of users overcome technical limitations by providing a better reading experience. The font is not limited to AR and VR applications, and can also be used in contexts such as automobile dashboards, signage, and mobile applications.
@@ -24,8 +23,7 @@ The rapid evolution of technology has prompted the type industry to consistently
 ### Generational Scalability
 The scalability of the AR One Sans font family across different resolutions makes it an ideal choice not just for current-generation headsets, but also for future headsets. The font is also developed with a complex script in mind and has the ability to accommodate a wider design vocabulary (coming soon).
 
-<img width="1600" alt="text" src="https://user-images.githubusercontent.com/26871553/233336744-e0124af0-5d12-48f8-a376-44ef3852e0af.png">
-
+<img width="1600" alt="Text 2" src="https://user-images.githubusercontent.com/26871553/233612541-96b06c9d-2d24-4559-93f7-c03e585b816e.png">
 
 ## Variable Axes
 
