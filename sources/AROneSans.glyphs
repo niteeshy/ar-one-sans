@@ -339,9 +339,6 @@ position = "{-52, 1018}";
 }
 );
 id = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
-verticalStems = (
-0
-);
 weightValue = 84;
 widthValue = 60;
 xHeight = 500;
@@ -591,9 +588,6 @@ KernOnModels = (
 "r quotedblright"
 );
 };
-verticalStems = (
-0
-);
 visible = 1;
 weightValue = 84;
 widthValue = 10;
@@ -689,9 +683,6 @@ userData = {
 GSExtrudeAngle = 30;
 GSExtrudeOffset = 15;
 };
-verticalStems = (
-0
-);
 weight = Bold;
 weightValue = 134;
 widthValue = 60;
@@ -931,9 +922,6 @@ KernOnModels = (
 "r quotedblright"
 );
 };
-verticalStems = (
-0
-);
 weight = Bold;
 weightValue = 134;
 widthValue = 10;
@@ -107885,12 +107873,10 @@ weightClass = SemiBold;
 },
 {
 interpolationWeight = 116;
-interpolationWidth = 0;
+interpolationWidth = 10;
 instanceInterpolations = {
-"993DDA7B-BC4C-4F4B-ACF9-716C764D536A" = 0.432;
-"C7F1792A-1FE9-4A21-B628-190BF571D00B" = -0.072;
-m003 = -0.128;
-m004 = 0.768;
+"993DDA7B-BC4C-4F4B-ACF9-716C764D536A" = 0.36;
+m004 = 0.64;
 };
 name = SemiBold;
 weightClass = SemiBold;
