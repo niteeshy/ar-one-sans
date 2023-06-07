@@ -1,7 +1,7 @@
 # AR One Sans Font Family 
 _A Typeface for Augmented Reality and User Interfaces_
 
-Note: This project is set to launch soon. Hence more details will be availble then.
+_Note: This project is scheduled to launch soon, which means that additional information will be made available at that time._
 
 <img width="1600" alt="Cover" src="https://user-images.githubusercontent.com/26871553/233336317-b7de7901-2ff2-45a3-98c6-6362985891cd.png">
 
