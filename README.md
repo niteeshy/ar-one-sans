@@ -62,7 +62,7 @@ Furthermore, I am deeply thankful to the remarkable individuals who have provide
 _Thanks to Dave Crossland for facilitating this project and helping me make it accessible to all._
 
 ## About AR One Project
-AR One Sans is part of AR One project is independent research project initiated by Niteesh Yadav in 2017 to explore spatial typography (AR/VR) while pursuing his masters at the University of Reading, United Kingdom. 
+AR One Sans is part of independent research project initiated by Niteesh Yadav in 2017 to explore spatial typography (AR/VR) while pursuing his masters at the University of Reading, United Kingdom. 
 
 ![Project Branding](https://github.com/niteeshy/ar-one-sans/assets/26871553/c36cffaf-ae8f-49c1-a3f2-84b04a03dc15)
 
