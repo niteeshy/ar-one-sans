@@ -59,7 +59,7 @@ Some of the adjustments in `ARRR` include:
 I would like to express my heartfelt gratitude to _Gerry Leonidas_ for his unwavering belief in my vision and his consistent support and guidance throughout this incredible journey. His faith in my abilities has been a tremendous source of motivation and inspiration.
 I would also like to extend my appreciation to the late _Dr Gerard Unger_ (1942–2018) for his valuable feedback and constant encouragement. His contributions have had a significant impact on the development of this project.
 Furthermore, I am deeply thankful to the remarkable individuals who have provided their guidance and support throughout this projece: _Dr Fiona Ross, Victor Gaultney, Fred smeijers, Tobias Frere Jones, and Sergio Martins_, your invaluable input have played a pivotal role in shaping this project. 
-_Thanks to Dave Crossland for facilitating this project and helping me make it accessible to all. _
+_Thanks to Dave Crossland for facilitating this project and helping me make it accessible to all._
 
 ## About AR One Project
 AR One Sans is part of AR One project is independent research project initiated by Niteesh Yadav in 2017 to explore spatial typography (AR/VR) while pursuing his masters at the University of Reading, United Kingdom. 
