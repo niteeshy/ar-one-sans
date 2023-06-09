@@ -3,8 +3,7 @@ _A Typeface for Augmented Reality and User Interfaces_
 
 _Note: This project is scheduled to launch soon, which means that additional information will be made available at that time._
 
-<img width="1600" alt="Cover" src="https://user-images.githubusercontent.com/26871553/233336317-b7de7901-2ff2-45a3-98c6-6362985891cd.png">
-
+![1](https://github.com/niteeshy/ar-one-sans/assets/26871553/039e01bd-6acd-4da5-bb11-2a8cffb7aa6d)
 
 ### Overview
 The AR One Sans type family is for use in augmented reality environments and user interfaces. It’s low contrast, generous spacing and robust shapes make it work well in busy backgrounds with high readability. The design of letterforms is based on research and thorough testing on various devices ranging from high-end headsets to low-resolution smartphone-based devices. It has optical weights for high and low-resolution duplexed to avoid text reflow, making it easy to deliver a seamless user experience across platforms/devices. The functionality of the text has been tested thoroughly to make the reading experience better even in longer texts.
@@ -22,10 +21,13 @@ The rapid evolution of technology has prompted the type industry to consistently
 - The shapes are compatible with anti-interference techniques, which are recommended by researchers for better readability in AR environments.
 - Specific design features have been added to reduce the effect of halation, and pixel loss in the lower resolution which causes the stroke ends to appear rounded.
 
+
+![2](https://github.com/niteeshy/ar-one-sans/assets/26871553/53144060-897e-4d5f-99ea-3a33ba437e41)
+
+
+
 ### Generational Scalability
 The scalability of the AR One Sans font family across different resolutions makes it an ideal choice not just for current-generation headsets, but also for future headsets. The font is also developed with a complex script in mind and has the ability to accommodate a wider design vocabulary (coming soon).
-
-<img width="1600" alt="Text 2" src="https://user-images.githubusercontent.com/26871553/233612541-96b06c9d-2d24-4559-93f7-c03e585b816e.png">
 
 ## Variable Axes
 
@@ -33,6 +35,8 @@ The scalability of the AR One Sans font family across different resolutions make
 | --- | --- | --- | --- | --- |
 | Augmented Reality Retinal Resolution | ARRR | 10 to 60 | 10 | Optimises the letter shapes and design to aid legibility based on the retinal resolution (PPD, pixel per degree) of devices. |
 | Weight | wght | 400 to 700 | 400 | Regular to Bold |
+
+![3](https://github.com/niteeshy/ar-one-sans/assets/26871553/253ed280-74f6-48a2-bcbb-c6b65496eae2)
 
 **Augmented Reality Retinal Resolution Axis [ARRR]**
 
@@ -49,6 +53,19 @@ Some of the adjustments in `ARRR` include:
 **Scale interpretation:** The lower value of the axis corresponds to the PPD of low-resolution headsets, while the upper value corresponds to 60 PPD, which is considered retina resolution. Beyond this point, the effect of adjustments on legibility and readability becomes negligible. Therefore, by limiting the adjustments to this range, designers can optimise the legibility and readability of their text for a wide range of headsets while minimising the amount of adjustment work required.
 
 **Recommended Use:** map the `ARRR` to the retinal resolution of headsets and render the typefaces according to that.
+
+## Gratitude
+
+I would like to express my heartfelt gratitude to Gerry Leonidas for his unwavering belief in my vision and his consistent support and guidance throughout this incredible journey. His faith in my abilities has been a tremendous source of motivation and inspiration.
+I would also like to extend my appreciation to the late Dr Gerard Unger (1942–2018) for his valuable feedback and constant encouragement. His contributions have had a significant impact on the development of this project.
+Furthermore, I am deeply thankful to the remarkable individuals who have provided their guidance and support throughout this projece: Dr Fiona Ross, Victor Gaultney, Fred smeijers, Tobias Frere Jones, and Sergio Martins, your invaluable input have played a pivotal role in shaping this endeavor. 
+Thanks Dave for facilitating this project and helping me make it accessible to all. 
+
+## About AR One Project
+AR One Sans is part of AR One project is independent research project initiated by Niteesh Yadav in 2017 to explore spatial typography (AR/VR) while pursuing his masters at the University of Reading, United Kingdom. 
+
+![Project Branding](https://github.com/niteeshy/ar-one-sans/assets/26871553/c36cffaf-ae8f-49c1-a3f2-84b04a03dc15)
+
 
 ## License
 
