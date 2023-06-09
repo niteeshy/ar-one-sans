@@ -22,11 +22,7 @@ The rapid evolution of technology has prompted the type industry to consistently
 - The shapes are compatible with anti-interference techniques, which are recommended by researchers for better readability in AR environments.
 - Specific design features have been added to reduce the effect of halation, and pixel loss in the lower resolution which causes the stroke ends to appear rounded.
 
-
-![2](https://github.com/niteeshy/ar-one-sans/assets/26871553/b4ac78e9-5dac-4e9d-bad6-0e34f7834dfd)
-
-
-
+![2](https://github.com/niteeshy/ar-one-sans/assets/26871553/f32bb955-f383-457f-b4c7-827d86e4c818)
 
 ### Generational Scalability
 The scalability of the AR One Sans font family across different resolutions makes it an ideal choice not just for current-generation headsets, but also for future headsets. The font is also developed with a complex script in mind and has the ability to accommodate a wider design vocabulary (coming soon).
