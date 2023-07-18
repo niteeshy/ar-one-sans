@@ -41,6 +41,21 @@ name = "Enforce Compatibility Check";
 value = 1;
 },
 {
+name = "Axis Mappings";
+value = {
+ARRR = {
+10 = 10;
+60 = 60;
+};
+wght = {
+400 = 84;
+500 = 100;
+600 = 116;
+700 = 134;
+};
+};
+},
+{
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
@@ -243,106 +258,6 @@ notes = "Name: Alternate D with Serif";
 }
 );
 fontMaster = (
-{
-ascender = 780;
-capHeight = 700;
-custom = "Regular Retina";
-customParameters = (
-{
-name = "Link Metrics With Master";
-value = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
-},
-{
-name = hheaAscender;
-value = 1060;
-},
-{
-name = hheaDescender;
-value = -240;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = typoAscender;
-value = 1060;
-},
-{
-name = typoDescender;
-value = -240;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 1060;
-},
-{
-name = winDescent;
-value = 240;
-}
-);
-descender = -220;
-guideLines = (
-{
-locked = 1;
-name = Overshoot;
-position = "{-56, -12}";
-},
-{
-locked = 1;
-name = "Flaring Start";
-position = "{-55, 80}";
-},
-{
-locked = 1;
-name = "LC overshoot";
-position = "{-53, 512}";
-},
-{
-locked = 1;
-name = "UC Diacritic Base";
-position = "{-52, 760}";
-},
-{
-locked = 1;
-name = "Mathematical sign median";
-position = "{-56, 352}";
-},
-{
-locked = 1;
-name = "Diacritic Bottom Center";
-position = "{-55, -116}";
-},
-{
-locked = 1;
-name = "Diacritic Base";
-position = "{-53, 572}";
-},
-{
-locked = 1;
-name = "Diacritic Median";
-position = "{-52, 648}";
-},
-{
-locked = 1;
-name = "LC Ascender/Diacritic Top";
-position = "{-53, 724}";
-},
-{
-locked = 1;
-name = "UC Dia Top";
-position = "{-52, 1018}";
-}
-);
-id = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
-weightValue = 84;
-widthValue = 60;
-xHeight = 500;
-},
 {
 ascender = 780;
 capHeight = 700;
@@ -596,11 +511,11 @@ xHeight = 510;
 {
 ascender = 780;
 capHeight = 700;
-custom = Retina;
+custom = "Regular Retina";
 customParameters = (
 {
 name = "Link Metrics With Master";
-value = m004;
+value = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
 },
 {
 name = hheaAscender;
@@ -639,13 +554,13 @@ descender = -220;
 guideLines = (
 {
 locked = 1;
-name = "Diacritic Base";
-position = "{-53, 572}";
+name = Overshoot;
+position = "{-56, -12}";
 },
 {
 locked = 1;
-name = Overshoot;
-position = "{-56, -12}";
+name = "Flaring Start";
+position = "{-55, 80}";
 },
 {
 locked = 1;
@@ -654,8 +569,23 @@ position = "{-53, 512}";
 },
 {
 locked = 1;
-name = "LC Ascender/Diacritic Top";
-position = "{-53, 724}";
+name = "UC Diacritic Base";
+position = "{-52, 760}";
+},
+{
+locked = 1;
+name = "Mathematical sign median";
+position = "{-56, 352}";
+},
+{
+locked = 1;
+name = "Diacritic Bottom Center";
+position = "{-55, -116}";
+},
+{
+locked = 1;
+name = "Diacritic Base";
+position = "{-53, 572}";
 },
 {
 locked = 1;
@@ -664,27 +594,17 @@ position = "{-52, 648}";
 },
 {
 locked = 1;
-name = "UC Diacritic Base";
-position = "{-52, 760}";
+name = "LC Ascender/Diacritic Top";
+position = "{-53, 724}";
 },
 {
 locked = 1;
-name = "Diacritic Bottom Center";
-position = "{-55, -108}";
-},
-{
-locked = 1;
-name = "Mathematical sign median";
-position = "{-23, 354}";
+name = "UC Dia Top";
+position = "{-52, 1018}";
 }
 );
-id = m003;
-userData = {
-GSExtrudeAngle = 30;
-GSExtrudeOffset = 15;
-};
-weight = Bold;
-weightValue = 134;
+id = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
+weightValue = 84;
 widthValue = 60;
 xHeight = 500;
 },
@@ -926,6 +846,101 @@ weight = Bold;
 weightValue = 134;
 widthValue = 10;
 xHeight = 510;
+},
+{
+ascender = 780;
+capHeight = 700;
+custom = Retina;
+customParameters = (
+{
+name = "Link Metrics With Master";
+value = m004;
+},
+{
+name = hheaAscender;
+value = 1060;
+},
+{
+name = hheaDescender;
+value = -240;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1060;
+},
+{
+name = typoDescender;
+value = -240;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1060;
+},
+{
+name = winDescent;
+value = 240;
+}
+);
+descender = -220;
+guideLines = (
+{
+locked = 1;
+name = "Diacritic Base";
+position = "{-53, 572}";
+},
+{
+locked = 1;
+name = Overshoot;
+position = "{-56, -12}";
+},
+{
+locked = 1;
+name = "LC overshoot";
+position = "{-53, 512}";
+},
+{
+locked = 1;
+name = "LC Ascender/Diacritic Top";
+position = "{-53, 724}";
+},
+{
+locked = 1;
+name = "Diacritic Median";
+position = "{-52, 648}";
+},
+{
+locked = 1;
+name = "UC Diacritic Base";
+position = "{-52, 760}";
+},
+{
+locked = 1;
+name = "Diacritic Bottom Center";
+position = "{-55, -108}";
+},
+{
+locked = 1;
+name = "Mathematical sign median";
+position = "{-23, 354}";
+}
+);
+id = m003;
+userData = {
+GSExtrudeAngle = 30;
+GSExtrudeOffset = 15;
+};
+weight = Bold;
+weightValue = 134;
+widthValue = 60;
+xHeight = 500;
 }
 );
 glyphs = (
@@ -107829,28 +107844,11 @@ width = 363;
 instances = (
 {
 interpolationWeight = 84;
-interpolationWidth = 60;
-instanceInterpolations = {
-"C7F1792A-1FE9-4A21-B628-190BF571D00B" = 1;
-};
-name = "Regular Retina";
-},
-{
-interpolationWeight = 84;
 interpolationWidth = 10;
 instanceInterpolations = {
 "993DDA7B-BC4C-4F4B-ACF9-716C764D536A" = 1;
 };
 name = Regular;
-},
-{
-interpolationWidth = 60;
-instanceInterpolations = {
-"C7F1792A-1FE9-4A21-B628-190BF571D00B" = 0.68;
-m003 = 0.32;
-};
-name = "Medium Retina";
-weightClass = Medium;
 },
 {
 interpolationWidth = 10;
@@ -107860,16 +107858,6 @@ m004 = 0.32;
 };
 name = Medium;
 weightClass = Medium;
-},
-{
-interpolationWeight = 116;
-interpolationWidth = 60;
-instanceInterpolations = {
-"C7F1792A-1FE9-4A21-B628-190BF571D00B" = 0.36;
-m003 = 0.64;
-};
-name = "SemiBold Retina";
-weightClass = SemiBold;
 },
 {
 interpolationWeight = 116;
@@ -107883,17 +107871,6 @@ weightClass = SemiBold;
 },
 {
 interpolationWeight = 134;
-interpolationWidth = 60;
-instanceInterpolations = {
-m003 = 1;
-};
-isBold = 1;
-linkStyle = "Regular Retina";
-name = "Bold Retina";
-weightClass = Bold;
-},
-{
-interpolationWeight = 134;
 interpolationWidth = 10;
 instanceInterpolations = {
 m004 = 1;
@@ -107901,6 +107878,44 @@ m004 = 1;
 isBold = 1;
 linkStyle = Regular;
 name = Bold;
+weightClass = Bold;
+},
+{
+interpolationWeight = 84;
+interpolationWidth = 60;
+instanceInterpolations = {
+"C7F1792A-1FE9-4A21-B628-190BF571D00B" = 1;
+};
+name = "Regular Retina";
+},
+{
+interpolationWidth = 60;
+instanceInterpolations = {
+"C7F1792A-1FE9-4A21-B628-190BF571D00B" = 0.68;
+m003 = 0.32;
+};
+name = "Medium Retina";
+weightClass = Medium;
+},
+{
+interpolationWeight = 116;
+interpolationWidth = 60;
+instanceInterpolations = {
+"C7F1792A-1FE9-4A21-B628-190BF571D00B" = 0.36;
+m003 = 0.64;
+};
+name = "SemiBold Retina";
+weightClass = SemiBold;
+},
+{
+interpolationWeight = 134;
+interpolationWidth = 60;
+instanceInterpolations = {
+m003 = 1;
+};
+isBold = 1;
+linkStyle = "Regular Retina";
+name = "Bold Retina";
 weightClass = Bold;
 }
 );
