@@ -1,8 +1,8 @@
 sources:
   - AROneSans.glyphs
-buildTTF: false
-buildOTF: false
-buildWebfont: false # Change this to true when ready to produce those fonts 
+# buildTTF: false
+# buildOTF: false
+# buildWebfont: false # Change this to true when ready to produce those fonts 
 axisOrder:
   - ARRR
   - wght
