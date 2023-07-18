@@ -1,19 +1,19 @@
 sources:
   - AROneSans.glyphs
-buildTTF: False
-buildOTF: False
-buildWebfont: False
+buildTTF: false
+buildOTF: false
+buildWebfont: false # Change this to true when ready to produce those fonts 
 axisOrder:
-  - opsz
+  - ARRR
   - wght
 familyName: AR One Sans
 stat:
-  - name: Optical size
-    tag: opsz
+  - name: AR Retinal Resolution
+    tag: ARRR
     values:
-    - name: 6pt # This point size value should be defined by design
-      value: 6
-    - name: 60pt
+    - name: 10PPD # This PPD value is defined by design
+      value: 10
+    - name: 60PPD
       value: 60
   - name: Weight
     tag: wght
@@ -22,10 +22,9 @@ stat:
       value: 400
       linkedValue: 700
       flags: 2
-    # The following hashed instances should be activated as soon as this instances are defined
-    # - name: Medium
-    #   value: 500
-    # - name: SemiBold
-    #   value: 600
+    - name: Medium
+      value: 500
+    - name: SemiBold
+      value: 600
     - name: Bold
       value: 700
