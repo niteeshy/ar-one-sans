@@ -107881,41 +107881,68 @@ name = Bold;
 weightClass = Bold;
 },
 {
+exports = 0;
+customParameters = (
+{
+name = familyName;
+value = Retina;
+}
+);
 interpolationWeight = 84;
 interpolationWidth = 60;
 instanceInterpolations = {
 "C7F1792A-1FE9-4A21-B628-190BF571D00B" = 1;
 };
-name = "Regular Retina";
+name = Regular;
 },
 {
+exports = 0;
+customParameters = (
+{
+name = familyName;
+value = Retina;
+}
+);
 interpolationWidth = 60;
 instanceInterpolations = {
 "C7F1792A-1FE9-4A21-B628-190BF571D00B" = 0.68;
 m003 = 0.32;
 };
-name = "Medium Retina";
+name = Medium;
 weightClass = Medium;
 },
 {
+exports = 0;
+customParameters = (
+{
+name = familyName;
+value = Retina;
+}
+);
 interpolationWeight = 116;
 interpolationWidth = 60;
 instanceInterpolations = {
 "C7F1792A-1FE9-4A21-B628-190BF571D00B" = 0.36;
 m003 = 0.64;
 };
-name = "SemiBold Retina";
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
+exports = 0;
+customParameters = (
+{
+name = familyName;
+value = Retina;
+}
+);
 interpolationWeight = 134;
 interpolationWidth = 60;
 instanceInterpolations = {
 m003 = 1;
 };
 isBold = 1;
-linkStyle = "Regular Retina";
-name = "Bold Retina";
+name = Bold;
 weightClass = Bold;
 }
 );
