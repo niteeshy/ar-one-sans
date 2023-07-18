@@ -1,14 +1,14 @@
 {
 .appVersion = "3151";
 DisplayStrings = (
-"É/Ecaron/Ecircumflexgrave/Ecircumflextilde",
-"f\012340-1",
-"/zero.ss01",
-"0123456789/zero.ss01",
-cenod,
-"/ogonekcomb/aogonek/eogonek/iogonek/oogonek/uogonek/ogonek",
 "i/idotless í/ibreve î/idblgrave ï/idotaccent/idotbelow ì/ihookabove/iinvertedbreve/ij/imacron/iogonek/itilde j/jdotless/jacute/jcircumflex",
-"ð"
+"d/space m/space 15°C/space",
+"½¼¾",
+"A/hungarumlautcomb/hungarumlautcomb.case/dblgravecomb.case/Adblgrave",
+"BCE/Schwa FHILMNOØS/Germandbls TUVWXYZ/D.ss02 ce/schwa/idotless/jdotless lm/eng osßvwxyz/i_d_o_t_l_e_s_s_underscore_o_g_o_n_e_k_c_o_m_b_comma º023458/zero.ss01/leftanglebracket-math .,:/ellipsis/bullet *//-/endash/emdash _({[/quotedblbase/quotedblleft «/guilsinglleft \"'¶§©®/trademark °|¦/dagger/daggerdbl/numero/cedi/colonsign $/euro/guarani/lira/liraTurkish/naira/peso/rupeeIndian/won ¥/commercialMinusSign +/minus ×÷=>/approxequal ^%/dottedCircle/dieresiscomb/dotaccentcomb/acutecomb/hungarumlautcomb/caroncomb.alt/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/horncomb/commaaccentcomb/cedillacomb/ogonekcomb/acutecomb.case/caroncomb.case/horncomb.case/ogonekcomb.case/_acutesmall/_brevesmall/_circumflexsmall/_currencyline/_dcroatcomp/_exclamcomp/_hooksmall/_idotcomp/_lslashcomponent/_percentcomp/_questioncomp/_ringacute/_tbarcomponent/_tildesmall/ethbarcomp/hbarcomp/_Lslash.comp/_Ohalf.comp/_Oslash.comp/_Qtail.com/_currencyline.case/_not.comp/_tbar.comp",
+"/Edblgrave",
+"/hungarumlautcomb/dblgravecomb/udblgrave",
+"/caroncomb.case/circumflexcomb.case/dotaccentcomb/dotbelowcomb A/Acircumflexdotbelow"
 );
 classes = (
 {
@@ -94575,7 +94575,7 @@ R = NoKerning;
 },
 {
 glyphname = hungarumlautcomb;
-lastChange = "2022-10-24 20:05:29 +0000";
+lastChange = "2023-07-18 22:13:28 +0000";
 layers = (
 {
 anchors = (
@@ -94593,23 +94593,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"239 582 LINE",
-"356 704 LINE",
-"356 720 LINE",
-"261 720 LINE",
-"169 598 LINE",
-"169 582 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "90 582 LINE",
 "193 704 LINE",
 "193 720 LINE",
 "98 720 LINE",
 "20 598 LINE",
 "20 582 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"239 582 LINE",
+"356 704 LINE",
+"356 720 LINE",
+"261 720 LINE",
+"169 598 LINE",
+"169 582 LINE"
 );
 }
 );
@@ -94647,23 +94647,23 @@ paths = (
 {
 closed = 1;
 nodes = (
-"239 572 LINE",
-"356 708 LINE",
-"356 710 LINE",
-"261 710 LINE",
-"169 574 LINE",
-"169 572 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "90 572 LINE",
 "193 708 LINE",
 "193 710 LINE",
 "98 710 LINE",
 "20 574 LINE",
 "20 572 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"239 572 LINE",
+"356 708 LINE",
+"356 710 LINE",
+"261 710 LINE",
+"169 574 LINE",
+"169 572 LINE"
 );
 }
 );
