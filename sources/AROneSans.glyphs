@@ -6,13 +6,15 @@ DisplayStrings = (
 "½¼¾",
 "A/hungarumlautcomb/hungarumlautcomb.case/dblgravecomb.case/Adblgrave",
 "BCE/Schwa FHILMNOØS/Germandbls TUVWXYZ/D.ss02 ce/schwa/idotless/jdotless lm/eng osßvwxyz/i_d_o_t_l_e_s_s_underscore_o_g_o_n_e_k_c_o_m_b_comma º023458/zero.ss01/leftanglebracket-math .,:/ellipsis/bullet *//-/endash/emdash _({[/quotedblbase/quotedblleft «/guilsinglleft \"'¶§©®/trademark °|¦/dagger/daggerdbl/numero/cedi/colonsign $/euro/guarani/lira/liraTurkish/naira/peso/rupeeIndian/won ¥/commercialMinusSign +/minus ×÷=>/approxequal ^%/dottedCircle/dieresiscomb/dotaccentcomb/acutecomb/hungarumlautcomb/caroncomb.alt/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/horncomb/commaaccentcomb/cedillacomb/ogonekcomb/acutecomb.case/caroncomb.case/horncomb.case/ogonekcomb.case/_acutesmall/_brevesmall/_circumflexsmall/_currencyline/_dcroatcomp/_exclamcomp/_hooksmall/_idotcomp/_lslashcomponent/_percentcomp/_questioncomp/_ringacute/_tbarcomponent/_tildesmall/ethbarcomp/hbarcomp/_Lslash.comp/_Ohalf.comp/_Oslash.comp/_Qtail.com/_currencyline.case/_not.comp/_tbar.comp",
-"/Edblgrave",
-"/hungarumlautcomb/dblgravecomb/udblgrave",
 "/caroncomb.case/circumflexcomb.case/dotaccentcomb/dotbelowcomb A/Acircumflexdotbelow",
 "/_ringacute/ringacute.case/Aringacute A",
 "A/Abrevehookabove",
 "AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve",
-"/caroncomb.case/circumflexcomb.case/Acircumflexdotbelow"
+"HH/Placeholder HO/Placeholder OOFAF/space GAG\012A/Placeholder A/space B/Placeholder B/space C/Placeholder C/space D/Placeholder D/space E/Placeholder E/space F/Placeholder F/space G/Placeholder G/space H/Placeholder H/space I/Placeholder I/space/space J/Placeholder J/space K/Placeholder K/space L/Placeholder L/space M/Placeholder M/space N/Placeholder N/space O/Placeholder O/space P/Placeholder P/space Q/Placeholder Q/space R/Placeholder R/space S/Placeholder S/space T/Placeholder T/space U/Placeholder U/space V/Placeholder V/space W/Placeholder W/space X/Placeholder X/space Y/Placeholder Y/space Z/Placeholder Z/space HH/Placeholder HO/Placeholder OO\012\012ABCDEFGHIJKLMNOPQRSTUVWXYZ\012\012ADD/space AFAIK/space AGRADO/space ALTAR/space ALVARO/space AMAYA/space ARVO/space AUSTRAL/space AVATAR/space AVIÓN/space AWARD/space AYUDA/space AYUNO/space BAOARLEY/space CHERVIL/space FALAZ/space FAMILY/space FAVOR/space FOLD/space FOSFORO/space HOYO/space KALE/space KELLOGS/space KILO/space KUNST/space LONDRES/space LYCHEE/space LYON/space MARVELOUS/space MONTH/space MUG/space MY/space OVOIDE/space OXATAIL/space OXO/space PAIN/space PATO/space PIZZA/space POINT/space RAYA/space ROTO/space RYAN/space SQUASH/space SXS/space TAIWAN/space TALL/space TARA/space TEMPERTURE/space TERMO/space TÌNH/space TIRO/space TOFU/space TOMATO/space TUVO/space TWARDOCK/space TWOMBLI/space UPPUMA/space VACA/space VANILLA/space VARIAR/space VELOCIDAD/space VIAJAR/space VIENE/space VOLCAN/space WALKING/space WALS/space WC/space WD/space WHEAT/space WINSTON/space WONDER/space WULC/space XERGIS/space XEROX/space YALE/space YEYO/space YIN/space YOGURT/space YOU/space ZUCCHINI/space ZWEIBACK/space NG/Uhorn/Ohorngrave I/space TH/Acircumflexacute Y/space V/Uhorn/Ohorn NG/space TR/Ohorngrave I\012\012V/Acircumflexdotbelow Y/space CH/Adotbelow Y/space/Dcroat/Uhornacute T/space/Ohornacute T/space TH/Uhorn/Ohorn NG/space T/Acircumflexacute Y/space \012/nbspace",
+"A/Placeholder/space B/Placeholder/space C/Placeholder/space D/Placeholder/space E/Placeholder/space F/Placeholder/space G/Placeholder/space H/Placeholder/space I/Placeholder/space J/Placeholder/space K/Placeholder/space L/Placeholder/space M/Placeholder/space N/Placeholder/space O/Placeholder/space P/Placeholder/space Q/Placeholder/space R/Placeholder/space S/Placeholder/space T/Placeholder/space U/Placeholder/space V/Placeholder/space X/Placeholder/space Y/Placeholder/space Z/Placeholder \012abcdefghijklmnopqrstuvwxyz\012fear/space fall/space kilo/space long/space ovoide/space want/space wind/space oxo/space zapato\012\012Twombli/space Tgmaiwan/space Taiwan/space Tomato/space Temperture/space Tiro/space Twardock/space Walking/space Wonder/space Wc/space Wd/space Wrcnder/space You/space Family/space Fear/space Furor/space Vocal/space Viajar/space Zusam/space Pearl/space Point/space Pain/space Ayuda/space \012Kilo/space Londres/space Leon/space Lio/space Month/space Lyon/space T/ocircumflexacute t\012\012Th/uhorn/ohorn ng/space T/ocircumflexacute t/space t/acircumflexacute t/space Nh/acircumflexacute t/space V/ocircumflexgrave ng/space/Dcroat/uhornacute ng/space B/uhornacute t/space/Dcroat/ocircumflexacute c/space k/ydotbelow ./space ng/uhorn/ohorngrave i/space Ng/uhorn/ohorntilde ngn",
+"HH0H1HH2HH3H\012HH4HH5HH6HH\012HH7H8HH9HH\0120/Placeholder 0/space 1/Placeholder 1/space 2/Placeholder 2/space 3/Placeholder 3/space 4/Placeholder 4/space 5/Placeholder 5/space 6/Placeholder 6/space 7/Placeholder 7/space 8/Placeholder 8/space 9/Placeholder 9\01201234750147147989/nbspace \012\012nn/Placeholder no/Placeholder oo",
+"a/Placeholder a/space b/Placeholder b/space c/Placeholder c/space d/Placeholder d/space e/Placeholder e/space f/Placeholder f/space g/Placeholder g/space h/Placeholder h/space i/Placeholder i/space jjj/space k/Placeholder k/space l/Placeholder l/space m/Placeholder m/space n/Placeholder n/space o/Placeholder o/space p/Placeholder p/space q/Placeholder q/space r/Placeholder r/space s/Placeholder s/space t/Placeholder t/space u/Placeholder u/space v/Placeholder v/space w/Placeholder w/space x/Placeholder x/space y/Placeholder y/space z/Placeholder z\012nn/Placeholder no/Placeholder oo\012\012abcdefghijklmnopqrstuvwxyz\012\012fear/space fall/space kilo/space long/space ovoide/space want/space wind/space oxo/space zapato\012\012Twombli/space Tgmaiwan/space Taiwan/space Tomato/space Temperture/space Tiro/space Twardock/space Walking/space Wonder/space Wc/space Wd/space Wrcnder/space You/space Family/space Fear/space Furor/space Vocal/space Viajar/space Zusam/space Pearl/space Point/space Pain/space Ayuda/space \012Kilo/space Londres/space Leon/space Lio/space Month/space Lyon/space T/ocircumflexacute t\012\012Th/uhorn/ohorn ng/space T/ocircumflexacute t/space t/acircumflexacute t/space Nh/acircumflexacute t/space V/ocircumflexgrave ng/space/Dcroat/uhornacute ng/space B/uhornacute t/space/Dcroat/ocircumflexacute c/space k/ydotbelow ./space ng/uhorn/ohorngrave i/space Ng/uhorn/ohorntilde ng7",
+"nn/Placeholder no/Placeholder oo/space HH/Placeholder HO/Placeholder OO\012o.,:;/ellipsis !¡?¿nn?·/bullet *#///backslash (){}[]-/endash/emdash/hyphentwo _o/quotesinglbase/quotedblbase \012/quotedblleft/quotedblright/quoteleft/quoteright «»/guilsinglleft/guilsinglright \"'/leftanglebracket-math/rightanglebracket-math @o"
 );
 classes = (
 {
@@ -70233,7 +70235,7 @@ R = NoKerning;
 },
 {
 glyphname = seven;
-lastChange = "2023-02-17 09:58:04 +0000";
+lastChange = "2023-07-19 14:01:30 +0000";
 layers = (
 {
 layerId = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
@@ -70279,7 +70281,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 600;
+width = 586;
 },
 {
 layerId = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
@@ -70325,7 +70327,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 600;
+width = 586;
 },
 {
 layerId = m003;
@@ -70371,7 +70373,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 600;
+width = 592;
 },
 {
 layerId = m004;
@@ -70379,25 +70381,25 @@ paths = (
 {
 closed = 1;
 nodes = (
-"297 0 LINE",
-"323 80 LINE",
-"548 608 LINE",
-"548 700 LINE",
-"64 700 LINE",
-"64 582 LINE",
-"410 582 LINE",
-"410 574 LINE",
-"379 562 LINE",
-"144 0 LINE"
+"293 0 LINE",
+"319 80 LINE",
+"544 608 LINE",
+"544 700 LINE",
+"60 700 LINE",
+"60 582 LINE",
+"406 582 LINE",
+"406 574 LINE",
+"375 562 LINE",
+"140 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"64 500 LINE",
-"182 500 LINE",
-"182 700 LINE",
-"64 700 LINE"
+"60 500 LINE",
+"178 500 LINE",
+"178 700 LINE",
+"60 700 LINE"
 );
 }
 );
@@ -70417,7 +70419,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 600;
+width = 592;
 }
 );
 unicode = 0037;
@@ -108581,6 +108583,9 @@ o = -10;
 t = 12;
 z = 8;
 };
+four = {
+seven = -12;
+};
 g = {
 j = -8;
 u = 0;
@@ -108613,6 +108618,9 @@ i = -10;
 n = 0;
 x = -6;
 };
+one = {
+seven = -40;
+};
 parenleft = {
 H = 0;
 a = 0;
@@ -108641,6 +108649,11 @@ z = 10;
 s = {
 parenright = 0;
 w = 0;
+};
+seven = {
+five = -20;
+four = -22;
+one = -20;
 };
 t = {
 e = 0;
@@ -108805,6 +108818,9 @@ b = 0;
 i = 12;
 z = 14;
 };
+four = {
+seven = -15;
+};
 g = {
 j = -10;
 parenright = 0;
@@ -108843,6 +108859,9 @@ i = -6;
 n = 0;
 x = -4;
 };
+one = {
+seven = -20;
+};
 parenleft = {
 H = 0;
 a = 0;
@@ -108870,6 +108889,15 @@ s = {
 parenright = 0;
 t = 8;
 w = 0;
+};
+seven = {
+five = -10;
+four = -25;
+one = 0;
+six = -30;
+};
+six = {
+seven = -30;
 };
 t = {
 e = 0;
