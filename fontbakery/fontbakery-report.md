@@ -151,7 +151,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* paragraph (U+00B6): L<<517.0,729.0>--<518.0,73.0>>
 
-	* uhorn (U+01B0): L<<628.0,545.0>--<744.0,546.0>>
+	* uhorn (U+01B0): L<<628.0,535.0>--<744.0,536.0>>
 
 	* uni031B (U+031B): L<<129.0,564.0>--<245.0,565.0>>
 
@@ -165,15 +165,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EE3 (U+1EE3): L<<563.0,555.0>--<679.0,556.0>>
 
-	* uni1EE9 (U+1EE9): L<<628.0,545.0>--<744.0,546.0>>
+	* uni1EE9 (U+1EE9): L<<628.0,535.0>--<744.0,536.0>>
 
-	* uni1EEB (U+1EEB): L<<628.0,545.0>--<744.0,546.0>>
+	* uni1EEB (U+1EEB): L<<628.0,535.0>--<744.0,536.0>>
 
-	* uni1EED (U+1EED): L<<628.0,545.0>--<744.0,546.0>>
+	* uni1EED (U+1EED): L<<628.0,535.0>--<744.0,536.0>>
 
-	* uni1EEF (U+1EEF): L<<628.0,545.0>--<744.0,546.0>>
+	* uni1EEF (U+1EEF): L<<628.0,535.0>--<744.0,536.0>>
 
-	* uni1EF1 (U+1EF1): L<<628.0,545.0>--<744.0,546.0>> 
+	* uni1EF1 (U+1EF1): L<<628.0,535.0>--<744.0,536.0>> 
 
 	* And uni20B5 (U+20B5): L<<556.0,165.0>--<555.0,40.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[7] AROneSans-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
