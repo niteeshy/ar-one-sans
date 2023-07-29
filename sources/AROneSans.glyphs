@@ -1,7 +1,9 @@
 {
 .appVersion = "3151";
 DisplayStrings = (
-"aæbdghmn/eng pþqr"
+"HAVANA\012MATATA",
+"/Kcommaaccent",
+KAL
 );
 classes = (
 {
@@ -14954,6 +14956,194 @@ width = 496;
 leftKerningGroup = KO_J;
 rightKerningGroup = KO_J;
 unicode = 0134;
+},
+{
+glyphname = K;
+lastChange = "2023-07-29 10:09:10 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{327, 0}";
+},
+{
+name = top;
+position = "{327, 700}";
+}
+);
+layerId = "993DDA7B-BC4C-4F4B-ACF9-716C764D536A";
+paths = (
+{
+closed = 1;
+nodes = (
+"607 0 LINE",
+"333 371 LINE",
+"594 700 LINE",
+"483 700 LINE",
+"441 634 LINE",
+"250 394 LINE",
+"143 394 LINE",
+"143 319 LINE",
+"261 319 LINE",
+"440 80 LINE",
+"492 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"195 0 LINE",
+"185 80 LINE",
+"185 620 LINE",
+"195 700 LINE",
+"90 700 LINE",
+"100 620 LINE",
+"100 80 LINE",
+"90 0 LINE"
+);
+}
+);
+width = 627;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{332, 0}";
+},
+{
+name = top;
+position = "{332, 700}";
+}
+);
+layerId = "C7F1792A-1FE9-4A21-B628-190BF571D00B";
+paths = (
+{
+closed = 1;
+nodes = (
+"617 0 LINE",
+"343 366 LINE",
+"604 700 LINE",
+"503 700 LINE",
+"451 634 LINE",
+"260 394 LINE",
+"143 394 LINE",
+"143 319 LINE",
+"271 319 LINE",
+"450 80 LINE",
+"512 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"185 0 LINE",
+"185 80 LINE",
+"185 620 LINE",
+"185 700 LINE",
+"100 700 LINE",
+"100 620 LINE",
+"100 80 LINE",
+"100 0 LINE"
+);
+}
+);
+width = 627;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{343, 0}";
+},
+{
+name = top;
+position = "{343, 700}";
+}
+);
+layerId = m004;
+paths = (
+{
+closed = 1;
+nodes = (
+"649 0 LINE",
+"395 371 LINE",
+"646 700 LINE",
+"480 700 LINE",
+"438 634 LINE",
+"272 415 LINE",
+"155 415 LINE",
+"155 297 LINE",
+"283 297 LINE",
+"432 80 LINE",
+"480 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"230 0 LINE",
+"220 80 LINE",
+"220 620 LINE",
+"230 700 LINE",
+"72 700 LINE",
+"82 620 LINE",
+"82 80 LINE",
+"72 0 LINE"
+);
+}
+);
+width = 679;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{339, 0}";
+},
+{
+name = top;
+position = "{339, 700}";
+}
+);
+layerId = m003;
+paths = (
+{
+closed = 1;
+nodes = (
+"659 0 LINE",
+"405 371 LINE",
+"656 700 LINE",
+"497 700 LINE",
+"448 634 LINE",
+"282 415 LINE",
+"155 415 LINE",
+"155 297 LINE",
+"293 297 LINE",
+"441 80 LINE",
+"493 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"220 0 LINE",
+"220 80 LINE",
+"220 620 LINE",
+"220 700 LINE",
+"82 700 LINE",
+"82 620 LINE",
+"82 80 LINE",
+"82 0 LINE"
+);
+}
+);
+width = 679;
+}
+);
+leftMetricsKey = H;
+unicode = 004B;
 },
 {
 glyphname = Kcommaaccent;
