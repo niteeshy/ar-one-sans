@@ -45,8 +45,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -108,8 +106,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -183,7 +179,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EF1 (U+1EF1): L<<628.0,535.0>--<744.0,536.0>> 
 
 	* And uni20B5 (U+20B5): L<<556.0,165.0>--<555.0,40.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] AROneSans-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] AROneSans-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -225,8 +221,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
@@ -290,8 +284,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
@@ -326,6 +318,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* threequarters (U+00BE): L<<477.0,98.0>--<462.0,97.0>>/L<<462.0,97.0>--<532.0,89.0>> = 10.333876585947342 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -379,8 +377,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -443,8 +439,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
@@ -485,7 +479,7 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* paragraph (U+00B6): L<<499.0,729.0>--<500.0,73.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] AROneSansRetina-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] AROneSansRetina-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -535,8 +529,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -599,8 +591,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
@@ -635,6 +625,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* threequarters (U+00BE): L<<480.0,98.0>--<465.0,97.0>>/L<<465.0,97.0>--<531.0,89.0>> = 10.725301953315029 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -684,8 +680,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -747,8 +741,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: ohorn	Contours detected: 3	Expected: 2
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
@@ -820,7 +812,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EF1 (U+1EF1): L<<628.0,545.0>--<744.0,546.0>> 
 
 	* And uni20B5 (U+20B5): L<<556.0,157.0>--<555.0,40.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] AROneSansRetina-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] AROneSansRetina-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -870,8 +862,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -934,8 +924,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
@@ -970,6 +958,12 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* threequarters (U+00BE): L<<570.0,82.0>--<541.0,81.0>>/L<<541.0,81.0>--<552.0,81.0>> = 1.9749340108819595 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -984,7 +978,7 @@ The following glyphs do not have the recommended number of contours:
 	* aeacute (U+01FD): L<<371.0,205.0>--<251.0,206.0>> 
 
 	* And paragraph (U+00B6): L<<511.0,729.0>--<512.0,73.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[7] AROneSans-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] AROneSans-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
@@ -1027,8 +1021,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -1091,8 +1083,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
@@ -1127,6 +1117,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* threequarters (U+00BE): L<<539.0,81.0>--<543.0,81.0>>/L<<543.0,81.0>--<430.0,83.0>> = 1.0139787227852883 
+
+	* And threequarters (U+00BE): L<<569.0,82.0>--<543.0,81.0>>/L<<543.0,81.0>--<552.0,81.0>> = 2.2025981617658017 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1182,8 +1180,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: oe	Contours detected: 4	Expected: 3
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -1246,8 +1242,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0136	Contours detected: 1	Expected: 2 or 3
-
 	- Glyph name: uni1EDB	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1EDD	Contours detected: 4	Expected: 3
@@ -1293,8 +1287,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 8 | 8 | 42 | 890 | 49 | 714 | 0 |
-| 0% | 0% | 2% | 52% | 3% | 42% | 0% |
+| 8 | 8 | 46 | 890 | 49 | 710 | 0 |
+| 0% | 0% | 3% | 52% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
