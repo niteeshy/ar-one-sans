@@ -47,8 +47,9 @@ Retinal Resolution (pixel density) = the number of pixels in a horizontal displa
 Some of the adjustments in `ARRR` include: 
 
 1. Addition of flaring at stroke ends to reduce the rounding effect at the ends due to missing pixels (in low resolution). It optimizes the shape of letters minimizing the rounding effect that can occur with rectangular strokes, making them appear more like rounded rectangles.
-2. Light traps to reduce excess glow at the intersection of strokes.
-3. Large x-height for a lower resolution to increase the counters and apertures and balance the negative space inside the letters due to flaring.
+2. Light traps to reduce excess glow at the intersection of strokes thereby minimising distortion of letterforms.
+3. Reinforced terminals for better rendering in low resolution.
+4. Larger x-height in lower resolutions to effectively balance the size of counters and apertures, countering the visual glow that can appear around letterforms.
 
 **Scale interpretation:** The lower value of the axis corresponds to the PPD of low-resolution headsets, while the upper value corresponds to 60 PPD, which is considered retina resolution. Beyond this point, the effect of adjustments on legibility and readability becomes negligible. Therefore, by limiting the adjustments to this range, designers can optimise the legibility and readability of their text for a wide range of headsets while minimising the amount of adjustment work required.
 
