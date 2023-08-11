@@ -68722,9 +68722,8 @@ rightKerningGroup = KO_z;
 unicode = 017C;
 },
 {
-export = 0;
 glyphname = i_d_o_t_l_e_s_s_underscore_o_g_o_n_e_k_c_o_m_b_comma;
-lastChange = "2023-08-11 10:35:14 +0000";
+lastChange = "2023-08-11 10:39:57 +0000";
 layers = (
 {
 components = (
