@@ -1,6 +1,6 @@
 # AR One Sans Font Family 
 
-![Cover](https://github.com/niteeshy/ar-one-sans/assets/26871553/de2a2409-18b6-4188-9f83-4700e367e50d)
+![Cover](https://github.com/niteeshy/ar-one-sans/assets/26871553/79031278-1ea8-4aac-bec6-cf875249a75c)
 
 
 ### Overview
