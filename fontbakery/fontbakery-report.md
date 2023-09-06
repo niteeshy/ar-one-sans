@@ -18,14 +18,10 @@ Fontbakery version: 0.8.13
   - AROneSansRetina-Regular.ttf (nameID 1)
   - AROneSansRetina-Bold.ttf (nameID 1)
   - AROneSansRetina-SemiBold.ttf (nameID 16) [code: inconsistent-family-name]
-</div></details><br></div></details><details><summary><b>[5] AROneSans-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] AROneSans-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "AR One Sans" contains an abbreviation. [code: abbreviation]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -160,7 +156,7 @@ approxequal
 	* aeacute (U+01FD): L<<371.0,211.0>--<245.0,212.0>> 
 
 	* paragraph (U+00B6): L<<511.0,729.0>--<512.0,73.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[6] AROneSansRetina-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] AROneSansRetina-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "AR One Sans Retina" contains an abbreviation. [code: abbreviation]
@@ -171,10 +167,6 @@ approxequal
  FONT_FAMILY_NAME = 'AR One Sans Retina Medium' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -300,14 +292,10 @@ approxequal
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* paragraph (U+00B6): L<<505.0,729.0>--<506.0,73.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[5] AROneSans-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] AROneSans-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "AR One Sans" contains an abbreviation. [code: abbreviation]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -436,14 +424,10 @@ approxequal
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* paragraph (U+00B6): L<<499.0,729.0>--<500.0,73.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[5] AROneSansRetina-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] AROneSansRetina-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "AR One Sans Retina" contains an abbreviation. [code: abbreviation]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -572,14 +556,10 @@ approxequal
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* paragraph (U+00B6): L<<499.0,729.0>--<500.0,73.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[5] AROneSansRetina-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] AROneSansRetina-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "AR One Sans Retina" contains an abbreviation. [code: abbreviation]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -740,14 +720,10 @@ approxequal
 	* uni1EF1 (U+1EF1): L<<628.0,535.0>--<744.0,536.0>> 
 
 	* uni20B5 (U+20B5): L<<556.0,165.0>--<555.0,40.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[5] AROneSans-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] AROneSans-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "AR One Sans" contains an abbreviation. [code: abbreviation]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -877,14 +853,10 @@ approxequal
 	* aeacute (U+01FD): L<<381.0,217.0>--<258.0,218.0>> 
 
 	* paragraph (U+00B6): L<<505.0,729.0>--<506.0,73.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[5] AROneSans-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] AROneSans-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "AR One Sans" contains an abbreviation. [code: abbreviation]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1043,7 +1015,7 @@ approxequal
 	* uni1EF1 (U+1EF1): L<<628.0,545.0>--<744.0,546.0>> 
 
 	* uni20B5 (U+20B5): L<<556.0,157.0>--<555.0,40.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[6] AROneSansRetina-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] AROneSansRetina-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check family name for GF Guide compliance. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_name_compliance">com.google.fonts/check/name/family_name_compliance</a>)</summary><div>
 
 
 * 🔥 **FAIL** "AR One Sans Retina" contains an abbreviation. [code: abbreviation]
@@ -1054,10 +1026,6 @@ approxequal
  FONT_FAMILY_NAME = 'AR One Sans Retina SemiBold' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
 
@@ -1200,8 +1168,8 @@ approxequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 9 | 34 | 954 | 49 | 803 | 0 |
-| 0% | 0% | 2% | 52% | 3% | 43% | 0% |
+| 0 | 9 | 26 | 954 | 57 | 803 | 0 |
+| 0% | 0% | 1% | 52% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
