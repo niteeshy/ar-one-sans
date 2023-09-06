@@ -50,6 +50,19 @@ wght = {
 };
 },
 {
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
+);
+},
+{
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
@@ -117281,8 +117294,6 @@ Scaron = {
 iogonek = -34;
 p = -8;
 };
-Scedilla = {
-};
 Schwa = {
 Schwa = 18;
 T = -25;
@@ -127450,8 +127461,6 @@ Scaron = {
 iogonek = -19;
 p = 0;
 };
-Scedilla = {
-};
 Schwa = {
 Schwa = 0;
 T = -23;
@@ -133849,5 +133858,5 @@ name = "Micro Regular";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
