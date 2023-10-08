@@ -83,3 +83,7 @@ If you want to build fonts manually on your own computer:
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at
 https://scripts.sil.org/OFL
+
+##Update:
+
+8 Oct '23: Added static Retina font styles in the fonts/ttf folder. Since they are not served by Google Fonts.
