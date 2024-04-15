@@ -86,5 +86,5 @@ https://scripts.sil.org/OFL
 
 ## Update:
 
-8 Oct '23: Added static Retina font styles in the fonts/ttf folder. Since they are not served by Google Fonts.
-15 Apr '24: Fixed some minor issues.
+* 8 Oct '23: Added static Retina font styles in the fonts/ttf folder. Since they are not served by Google Fonts.
+* 15 Apr '24: Fixed some minor issues.
